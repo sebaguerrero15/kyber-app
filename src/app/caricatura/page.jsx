@@ -13,7 +13,6 @@ const SeriesComponent =  () => {
 
     <section className="min-h-[80vh] mt-8">
       <div className="container mx-auto">
-        <h1 className="text-white font-bold text-3xl">Series Animadas</h1>
           <div className="grid grid-cols-4 gap-2 mt-10">
             {series.map((serie) => (
               <SeriesList serie={serie} key={serie._id} />
