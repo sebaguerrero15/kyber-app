@@ -38,6 +38,18 @@ const nextConfig = {
             port: '',
             pathname: 'misc/samurai-jack-backgrounds/media/SAMURAI_JACK_1920X1080_Skulls.png',
           },
+          {
+            protocol: 'https',
+            hostname: 'images.justwatch.com',
+            port: '',
+            pathname: '/poster/300678811/s718/fenomenoide.jpg',
+          },
+          {
+            protocol: 'https',
+            hostname: 'i.pinimg.com',
+            port: '',
+            pathname: '/originals/fb/1a/97/fb1a97b949c12a30269f813ab996e2da.jpg',
+          }
         ],
       },
 };

@@ -1,9 +1,10 @@
 "use client";
 
 import Link from 'next/link';
-import { useState } from 'react';
+import { useState, Suspense } from 'react';
 import { MdKeyboardArrowDown } from "react-icons/md";
 import { motion } from "framer-motion";
+import Loading from "../app/loading"
 
 const Dropdown = ({ serie }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -47,6 +48,7 @@ const Dropdown = ({ serie }) => {
       )}
 
       {selectedSeason && (
+        <Suspense fallback={<Loading />}>
         <div className="grid grid-cols-3 justify-center mt-12 gap-8">
           {selectedSeason.links.map((link, index) => (
             <motion.div
@@ -62,9 +64,9 @@ const Dropdown = ({ serie }) => {
                 transition={{ duration: 0.5 }}
                 className='rounded-xl relative p-2 transition-all duration-75 border-4 border-transparent hover:border-white'
               >
-                <Link href={`/caricatura/${serie._id}/${link.link}`} >
+                <Link href={link.link} >
                   <iframe
-                    src={`https://ok.ru/videoembed/${link.link}?autoplay=0&controls=1`}
+                    src={link.link}
                     className='realtive overflow-hidden pointer-events-none'
                     width={350}
                     height={200}
@@ -77,6 +79,7 @@ const Dropdown = ({ serie }) => {
             </motion.div>
           ))}
         </div>
+        </Suspense>
       )}
     </div>
   );

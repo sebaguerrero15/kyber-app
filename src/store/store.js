@@ -1,6 +1,7 @@
 import {create} from 'zustand';
+import {persist} from 'zustand/middleware'
 
-const useSeriesStore = create((set) => ({
+const useSeriesStore = create(persist((set) => ({
   series: [],
   selectedSerie: {},
   fetchSeries: async () => {
@@ -14,7 +15,8 @@ const useSeriesStore = create((set) => ({
       return { selectedSerie: serie };
     });
   },
-}));
+}),
+{name: 'Kyber-storage', }));
 
 export default useSeriesStore;
    

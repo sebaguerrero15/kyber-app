@@ -1,18 +1,13 @@
-import { MoonLoader } from "react-spinners"
-import { Suspense } from "react"
+"use client";
 
+import { MoonLoader } from "react-spinners";
 
 const Loading = () => {
   return (
-    <div className="min-h-[80vh]">
-      <div className="flex justify-center items-center">
-        <Suspense> 
-        <MoonLoader color="#03d4ff" className="text-center"/>
-        </Suspense>
-      </div>
+    <div className="min-h-screen flex justify-center items-center">
+      <MoonLoader color="#03d4ff" size={50} />
     </div>
-    
-  )
-}
+  );
+};
 
-export default Loading
+export default Loading;

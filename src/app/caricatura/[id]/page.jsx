@@ -1,12 +1,11 @@
 "use client";
 
-import { Suspense, useEffect } from "react"
+import { useEffect } from "react"
 import Dropdown from "../../../components/Dropdown"
-import Loading from "../loading"
 import { FaArrowLeft } from "react-icons/fa";
 import useSeriesStore from "../../../store/store";
 import Link from "next/link";
-import FooterComponent from "../../../components/Footer";
+
 
 
 const SerieDetails = ({ params }) => {
@@ -25,12 +24,13 @@ const SerieDetails = ({ params }) => {
 
   return (
     
-    <section className="min-h-[80vh]" style={{
+    <section className="min-h-[80vh] pb-12" style={{
         backgroundImage: `linear-gradient(to left, rgba(0,0,0,0.5), rgba(0,0,0,0.9)), url(${serie.background})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundAttachment: 'fixed',
-        }}>
+        }}
+        >
             {/* flecha volver atras */}
             <Link href={"/"}>
             <button>
@@ -51,15 +51,15 @@ const SerieDetails = ({ params }) => {
             <div className="container mx-auto mt-10">
                 <div className="flex flex-col">
                     <h3 className="text-2xl font-semibold mb-4 ml-4">Episodios</h3>
-                    <Suspense fallback={<Loading />}>
+                    
                     <Dropdown serie={serie} />
-                    </Suspense>
+                  
                 </div>
            
             </div>
     </div>
 
-    <FooterComponent />
+
             
     </section>
     
