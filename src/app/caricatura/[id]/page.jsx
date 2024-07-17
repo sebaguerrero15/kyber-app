@@ -29,6 +29,7 @@ const SerieDetails = ({ params }) => {
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundAttachment: 'fixed',
+        height: 'auto',
         }}
         >
             {/* flecha volver atras */}

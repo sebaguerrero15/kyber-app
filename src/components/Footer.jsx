@@ -24,6 +24,7 @@ const FooterComponent = () => {
                     <Link href="#" className="hover:underline">Contacto</Link>
                 </li>
             </ul>
+
             
             <Link href={"/"} className="flex justify-center mb-4">
               <Image src={"/logo.png"} width={100} height={100} className="cursor-pointer" alt="logo-web" />
@@ -34,6 +35,9 @@ const FooterComponent = () => {
              <Link href={"https://www.paypal.com/ncp/payment/M94ZUAW2MSWQS"} target="_blank" className="flex items-center mb-4 sm:mb-0">
               <Image src={"/paypal.png"} width={300} height={300} className="cursor-pointer relative" alt="logo paypal" />
              </Link>
+            
+            
+       
 
            
         
