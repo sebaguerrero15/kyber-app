@@ -20,8 +20,8 @@ const Dropdown = ({ serie }) => {
   };
 
   return (
-    <div className="min-h-screen container mx-auto">
-      <div>
+    <div className="min-h-screen">
+      <div className='container mx-auto'>
         <button
           type="button"
           className="flex items-center justify-center rounded-full border border-white bg-transparent shadow-sm px-6 py-1 text-white text-lg font-medium hover:bg-black hover:border-black transition-all duration-300"
@@ -33,7 +33,7 @@ const Dropdown = ({ serie }) => {
       </div>
 
       {isOpen && (
-        <button className="flex flex-col gap-3 justify-start rounded-xl border border-black bg-black shadow-sm px-[76px] py-2 text-white text-lg font-medium">
+        <button className="flex flex-col justify-center gap-3 md:justify-start rounded-xl border border-black bg-black shadow-sm px-[76px] py-2 text-white text-lg font-medium">
           {serie.seasons.map((season, index) => (
             <p
               key={index}
@@ -49,7 +49,7 @@ const Dropdown = ({ serie }) => {
 
       {selectedSeason && (
         <Suspense fallback={<Loading />}>
-        <div className="grid grid-cols-3 justify-center mt-12 gap-8">
+        <div className="grid grid-cols-1 items-center md:grid-cols-2 lg:grid-cols-3 mt-12 gap-8">
           {selectedSeason.links.map((link, index) => (
             <motion.div
               key={index}

@@ -24,7 +24,7 @@ const Navbar = () => {
           />
         </Link>
 
-        <Link href="/" className="ml-[45px]">
+        <Link href="/peliculas" className="ml-[45px]">
         <BiSolidCameraMovie className="text-2xl cursor-pointer"/>
         </Link>
 

@@ -43,14 +43,14 @@ const SerieDetails = ({ params }) => {
         <div className='container mx-auto flex flex-col justify-center items-center text-white'>
             
             <div className='flex flex-col gap-2 mt-12'>
-                <h2 className="text-[80px] font-bold">{serie.name}</h2>
-                <p className="text-xl mr-[580px]">{serie.description}</p>
+                <h2 className="sm:text-center text-[80px] font-bold md:text-start">{serie.name}</h2>
+                <p className="text-xl md:mr-[580px]">{serie.description}</p>
             </div>
 
             {/* dropdown */}
             <div className="container mx-auto mt-10">
-                <div className="flex flex-col">
-                    <h3 className="text-2xl font-semibold mb-4 ml-4">Episodios</h3>
+                <div className="flex flex-col gap-2">
+                    <h3 className="sm:text-center text-2xl font-semibold md:mb-4 md:ml-4 md:text-start">Episodios</h3>
                     
                     <Dropdown serie={serie} />
                   

@@ -2,6 +2,7 @@
   "name": "caricatoons",
   "version": "0.1.0",
   "private": true,
+  "proxy": "https://kyber-swart.vercel.app",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,6 +10,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "axios": "^1.7.2",
     "cors": "^2.8.5",
     "framer-motion": "^11.2.12",
     "mongoose": "^8.4.4",

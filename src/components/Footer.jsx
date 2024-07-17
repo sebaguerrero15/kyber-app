@@ -11,7 +11,7 @@ const FooterComponent = () => {
     
 
 <footer className="bg-black py-16">
-    <div className="">
+    <div className="container mx-auto">
         <div className="flex items-center justify-around">
         <ul className="mb-6 space-y-2 text-md font-medium text-white sm:mb-0">
                 <li>
@@ -25,14 +25,14 @@ const FooterComponent = () => {
                 </li>
             </ul>
             
-            <Link href={"/"} className="flex justify-center ml-[130px] mb-4 sm:mb-0  rtl:space-x-reverse">
-              <Image src={"/logo.png"} width={100} height={100} className="cursor-pointer" />
+            <Link href={"/"} className="flex justify-center mb-4">
+              <Image src={"/logo.png"} width={100} height={100} className="cursor-pointer" alt="logo-web" />
               <span className="text-white">©</span>
              </Link>
              
              {/* logo web */}
-             <Link href={"https://www.paypal.com/ncp/payment/M94ZUAW2MSWQS"} target="_blank" className="flex items-center mb-4 sm:mb-0 rtl:space-x-reverse">
-              <Image src={"/paypal.png"} width={300} height={300} className="cursor-pointer relative" />
+             <Link href={"https://www.paypal.com/ncp/payment/M94ZUAW2MSWQS"} target="_blank" className="flex items-center mb-4 sm:mb-0">
+              <Image src={"/paypal.png"} width={300} height={300} className="cursor-pointer relative" alt="logo paypal" />
              </Link>
 
            
