@@ -5,7 +5,7 @@ const useSeriesStore = create(persist((set) => ({
   series: [],
   selectedSerie: {},
   fetchSeries: async () => {
-    const res = await fetch('http://localhost:3000/api/series');
+    const res = await fetch('https://kyber-swart.vercel.app/api/series');
     const data = await res.json();
     set({ series: data });
   },
