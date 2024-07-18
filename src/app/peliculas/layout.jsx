@@ -1,20 +1,21 @@
 
-import FooterComponent from "../../components/Footer";
+import Peliculas from "./page";
 import Navbar from "../../components/Navbar";
 
 
 
 export const metadata = {
   title: "Kyber | Peliculas",
-  description: "Series y Peliculas gratis",
+  description: "Peliculas gratis",
 };
 
-export default function Layout({ children }) {
+export default function Layout({ childen }) {
   return (
   
       <div>
         <Navbar />
-        {children}
+        {childen}
+       
         </div>
 
   );
