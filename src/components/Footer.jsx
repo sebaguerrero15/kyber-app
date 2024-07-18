@@ -13,7 +13,7 @@ const FooterComponent = () => {
 <footer className="bg-black py-16">
     <div className="container mx-auto">
         <div className="flex items-center justify-around">
-        <ul className="mb-6 space-y-2 text-md font-medium text-white sm:mb-0">
+        <ul className="mb-6 m-4 space-y-2 text-md font-medium text-white sm:mb-0">
                 <li>
                     <Link href="#" className="hover:underline me-4 md:me-6">Acerca de Nosotros</Link>
                 </li>
@@ -26,7 +26,7 @@ const FooterComponent = () => {
             </ul>
 
             
-            <Link href={"/"} className="flex justify-center mb-4">
+            <Link href={"/"} className="flex justify-center mb-4 m-4">
               <Image src={"/logo.png"} width={100} height={100} className="cursor-pointer" alt="logo-web" />
               <span className="text-white">©</span>
              </Link>

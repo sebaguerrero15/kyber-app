@@ -5,10 +5,12 @@ import useSeriesStore from '../store/store';
 
 const SeriesFetcher = ({ children }) => {
   const fetchSeries = useSeriesStore((state) => state.fetchSeries);
+  const fetchPeliculas = useSeriesStore((state) => state.fetchPeliculas);
 
   useEffect(() => {
     fetchSeries();
-  }, [fetchSeries]);
+    fetchPeliculas();
+  }, [fetchSeries, fetchPeliculas]);
 
   return children;
 };
