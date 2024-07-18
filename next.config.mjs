@@ -49,6 +49,18 @@ const nextConfig = {
         hostname: 'i.pinimg.com',
         port: '',
         pathname: '/originals/fb/1a/97/fb1a97b949c12a30269f813ab996e2da.jpg',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.lavanguardia.com',
+        port: '',
+        pathname: '/peliculas-series/images/movie/poster/2018/11/w1280/eCHNCoat9L0Q3p4XjBQqV2Zn7Ux.jpg',
+      },
+      {
+        protocol: 'https',
+        hostname: 'images-2.rakuten.tv',
+        port: '',
+        pathname: '/storage/snapshot/shot/c2c97ef2-3ad7-452f-a572-9ab682d27e37.jpeg',
       }
     ],
   },
