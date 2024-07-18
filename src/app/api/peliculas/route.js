@@ -1,5 +1,5 @@
 import dbConnect from "../../../lib/dbConnect";
-import Peliculas from "../../../models/page";
+import {Peliculas} from "../../../models/page";
 import { NextResponse } from "next/server";
 
 export async function GET(){

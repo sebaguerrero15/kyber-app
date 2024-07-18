@@ -63,7 +63,7 @@ const nextConfig = {
           },
           {
             key: 'Access-Control-Allow-Origin',
-            value: 'https://kyber-swart.vercel.app/', // Cambia esto por el dominio que necesites permitir
+            value: 'https://kyber-swart.vercel.app/', //
           },
           {
             key: 'Access-Control-Allow-Methods',
