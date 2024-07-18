@@ -9,12 +9,12 @@ export const metadata = {
   description: "Peliculas gratis",
 };
 
-export default function Layout({ childen }) {
+export default function Layout() {
   return (
   
       <div>
         <Navbar />
-        {childen}
+       <Peliculas />
        
         </div>
 
