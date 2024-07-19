@@ -3,6 +3,7 @@
 import SeriesComponent from "../app/caricatura/page"
 import Navbar from "../components/Navbar";
 import SeriesFetcher from "../store/useFetcher"
+import Peliculas from "./peliculas/page";
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <div>
         <Navbar />
         <SeriesComponent />
+        <Peliculas />
       </div>
       
     </SeriesFetcher>
