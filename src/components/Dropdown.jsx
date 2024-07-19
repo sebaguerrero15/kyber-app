@@ -24,7 +24,7 @@ const Dropdown = ({ serie }) => {
       <div className='container mx-auto'>
         <button
           type="button"
-          className="flex items-center justify-center rounded-full border border-white bg-transparent shadow-sm px-6 py-1 text-white text-lg font-medium hover:bg-black hover:border-black transition-all duration-300"
+          className="flex items-center justify-center m-2 rounded-full border border-white bg-transparent shadow-sm px-6 py-1 text-white text-lg font-medium hover:bg-black hover:border-black transition-all duration-300"
           onClick={toggleDropdown}
         >
           {selectedSeason ? `${selectedSeason.season}` : "Seleccionar Temporada"}
@@ -62,7 +62,7 @@ const Dropdown = ({ serie }) => {
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
                 transition={{ duration: 0.5 }}
-                className='rounded-xl relative p-2 transition-all duration-75 border-4 border-transparent hover:border-white'
+                className='rounded-xl relative p-2 sm:transition-all sm:duration-75 sm:border-4 sm:border-transparent sm:hover:border-white'
               >
                 <Link href={link.link} >
                   <iframe
