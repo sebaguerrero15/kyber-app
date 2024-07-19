@@ -1,5 +1,6 @@
 "use client";
 
+import Navbar from "../../components/Navbar";
 import PeliculasList from "../../components/PeliculasList"
 import useSeriesStore from '../../store/store';
 
@@ -10,7 +11,8 @@ const Peliculas =  () => {
 
 
   return (
-
+  <>
+    <Navbar />
     <section className="min-h-[80vh] mt-[70px]">
       <div className="container mx-auto">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-2 my-10">
@@ -22,7 +24,7 @@ const Peliculas =  () => {
       </div>
      
     </section>
-
+  </>
   )
 }
 
