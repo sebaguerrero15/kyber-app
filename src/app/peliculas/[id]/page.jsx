@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, Suspense } from "react"
+import { useEffect} from "react"
 import { FaArrowLeft } from "react-icons/fa";
 import useSeriesStore from "../../../store/store";
 import Loading from "../loading"
@@ -61,7 +61,7 @@ const PeliculaDetails = ({ params }) => {
           
            
            <div className="flex justify-start">
-           <Link href={pelicula.link} className="flex justify-center items-center px-6 py-2 rounded-3xl border-none bg-white hover:bg-[#9FA1A5] transition-all duration-300">
+           <Link href={`${pelicula.link}`} className="flex justify-center items-center px-6 py-2 rounded-3xl border-none bg-white hover:bg-[#9FA1A5] transition-all duration-300">
                   <button className="flex justify-center items-center text-black gap-4 hover:bg uppercase text-2xl font-medium">
                     Ver Ahora <MdPlayCircle className="text-4xl" />
                     </button>
