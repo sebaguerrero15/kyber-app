@@ -8,6 +8,7 @@ import Link from "next/link";
 
 
 
+
 const SerieDetails = ({ params }) => {
    
     const serieId = params.id;
@@ -24,6 +25,7 @@ const SerieDetails = ({ params }) => {
 
   return (
     
+   
     <section className="min-h-[80vh] pb-12" style={{
         backgroundImage: `linear-gradient(to left, rgba(0,0,0,0.5), rgba(0,0,0,0.9)), url(${serie.background})`,
         backgroundSize: 'cover',
@@ -63,7 +65,7 @@ const SerieDetails = ({ params }) => {
 
             
     </section>
-    
+   
   )
 }
 

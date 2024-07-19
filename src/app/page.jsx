@@ -1,6 +1,7 @@
 "use client";
 
 import SeriesComponent from "../app/caricatura/page"
+import FooterComponent from "../components/Footer";
 import Navbar from "../components/Navbar";
 import SeriesFetcher from "../store/useFetcher"
 import Peliculas from "./peliculas/page";
@@ -12,6 +13,7 @@ const Home = () => {
         <Navbar />
         <SeriesComponent />
         <Peliculas />
+        <FooterComponent />
       </div>
       
     </SeriesFetcher>

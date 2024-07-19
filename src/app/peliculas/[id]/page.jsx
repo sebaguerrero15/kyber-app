@@ -8,7 +8,6 @@ import Link from "next/link";
 import { MdPlayCircle } from "react-icons/md";
 
 
-
 const PeliculaDetails = ({ params }) => {
    
     const peliculaId = params.id;
@@ -28,7 +27,9 @@ const PeliculaDetails = ({ params }) => {
     }
 
   return (
-    
+
+ 
+  
     <section className="min-h-[80vh] pb-12" style={{
         backgroundImage: `linear-gradient(to left, rgba(0,0,0,0.5), rgba(0,0,0,0.9)), url(${pelicula.background})`,
         backgroundSize: 'cover',
@@ -85,7 +86,7 @@ const PeliculaDetails = ({ params }) => {
 
             
     </section>
-    
+   
   )
 }
 
