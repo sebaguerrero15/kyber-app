@@ -5,7 +5,6 @@ import Image from "next/image";
 import { BiSolidCameraMovie } from "react-icons/bi";
 import { FaSearch } from "react-icons/fa";
 import { MdFavorite } from "react-icons/md";
-import { PiUserCircleFill } from "react-icons/pi";
 
 
 const Navbar = () => {
@@ -19,7 +18,7 @@ const Navbar = () => {
             src="/logo.png"
             width={100}
             height={100}
-            className="cursor-pointer"
+            className="m-2 cursor-pointer"
             alt="logo"
           />
         </Link>
@@ -37,12 +36,6 @@ const Navbar = () => {
         </Link>
         </div>
 
-        {/* perfil */}
-        <div className="mr-10">
-          <Link href="/">
-          <PiUserCircleFill className="text-3xl cursor-pointer"/>
-          </Link>
-        </div>
 
         </div>
         

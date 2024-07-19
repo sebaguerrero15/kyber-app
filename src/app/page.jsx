@@ -1,18 +1,20 @@
 "use client";
 
-import SeriesComponent from "../app/caricatura/page"
 import FooterComponent from "../components/Footer";
 import Navbar from "../components/Navbar";
+import Menu from "../components/Menu";
 import SeriesFetcher from "../store/useFetcher"
-import Peliculas from "./peliculas/page";
+
+
 
 const Home = () => {
+
   return (
     <SeriesFetcher className="min-h-[80vh]">
       <div>
         <Navbar />
-        <SeriesComponent />
-        <Peliculas />
+        <Menu />
+        {/* Destacados */}
         <FooterComponent />
       </div>
       
