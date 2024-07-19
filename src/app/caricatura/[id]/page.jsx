@@ -33,12 +33,9 @@ const SerieDetails = ({ params }) => {
         }}
         >
             {/* flecha volver atras */}
-            <Link href={"/"}>
-            <button>
-            <FaArrowLeft className="text-white cursor-pointer mx-3 mt-5 text-4xl hover:text-amber-400 hover:transition-all hover:duration-200" />
-            </button>
-                
-            </Link>
+            <button onClick={() => router.back()}>
+  <FaArrowLeft className="text-white cursor-pointer mx-3 mt-5 text-4xl hover:text-amber-400 hover:transition-all hover:duration-200" />
+</button>
            
         
         <div className='container mx-auto flex flex-col justify-center items-center text-white'>
