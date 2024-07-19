@@ -1,11 +1,11 @@
 "use client";
 
 import { useEffect, Suspense } from "react"
-import motion from "framer-motion"
 import { FaArrowLeft } from "react-icons/fa";
 import useSeriesStore from "../../../store/store";
 import Loading from "../loading"
 import Link from "next/link";
+import { MdPlayCircle } from "react-icons/md";
 
 
 
@@ -22,6 +22,10 @@ const PeliculaDetails = ({ params }) => {
     }, [peliculaId, fetchPeliculaById]);
   
     const pelicula = selectedPelicula;
+
+    if (!pelicula) {
+      return <Loading />;
+    }
 
   return (
     
@@ -50,39 +54,28 @@ const PeliculaDetails = ({ params }) => {
             </div>
 
           
-            <div className="container mx-auto mt-10">
+            <div className="container mx-auto">
                 <div className="flex flex-col gap-2">
                     
-                <Suspense fallback={<Loading />}>
-        <div className="grid grid-cols-1 items-center md:grid-cols-2 lg:grid-cols-3 mt-12 gap-8">
+        <div className="grid grid-cols-1 mt-12 gap-8">
           
-            <motion.div
-              key={index}
-              className='flex flex-col items-center text-lg text-white'
-              initial={{ opacity: 0, scale: 0.5 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.5 }}
-            >
-              <motion.div
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.9 }}
-                transition={{ duration: 0.5 }}
-                className='rounded-xl relative p-2 transition-all duration-75 border-4 border-transparent hover:border-white'
-              >
-                <Link href={pelicula.link} >
-                  <iframe
-                    src={pelicula.link}
-                    className='realtive overflow-hidden pointer-events-none'
-                    width={350}
-                    height={200}
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  />
+           
+           <div className="flex justify-start">
+           <Link href={pelicula.link} className="flex justify-center items-center px-6 py-2 rounded-3xl border-none bg-white hover:bg-[#9FA1A5] transition-all duration-300">
+                  <button className="flex justify-center items-center text-black gap-4 hover:bg uppercase text-2xl font-medium">
+                    Ver Ahora <MdPlayCircle className="text-4xl" />
+                    </button>
                 </Link>
-              </motion.div>
-            </motion.div>
+           </div>
+              
+             
+
+              <div className="flex justify-center items-center">
+                  <iframe width="653" height="480" src="https://www.youtube.com/embed/N2lzGmhf0yY" title="EL GRINCH Trailer Oficial Español Latino (2018)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
         </div>
-        </Suspense>
+      
                   
                 </div>
            

@@ -7,15 +7,24 @@ const useSeriesStore = create(persist((set) => ({
   selectedSerie: {},
   peliculas: [],
   selectedPelicula: {},
-  fetchSeries:  async() => {
-    const res =  await axios.get('https://kyber-swart.vercel.app/api/series');
-    const data =  await res.data;
-    set({ series: data });
+  fetchSeries: async () => {
+    try {
+      const res = await axios.get('https://kyber-swart.vercel.app/api/series');
+      const data = res.data;
+      set({ series: data });
+    } catch (error) {
+      console.error("Error fetching series:", error);
+    }
   },
   fetchPeliculas:  async() => {
-    const res =  await axios.get('https://kyber-swart.vercel.app/api/peliculas');
-    const data =  await res.data;
-    set({ peliculas: data });
+    try {
+      const res =  await axios.get('https://kyber-swart.vercel.app/api/peliculas');
+      const data =   res.data;
+      set({ peliculas: data });
+    } catch (error) {
+      console.error("Error fetching series:", error);
+    }
+   
   },
   fetchSerieById: (id) => {
     set((state) => {
