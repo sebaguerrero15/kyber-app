@@ -48,7 +48,7 @@ const SerieDetails = ({ params }) => {
         backgroundPosition: 'center',
       }}
     >
-      <Link href="/">
+      <Link href="https://kyber-swart.vercel.app/caricatura">
         <button>
           <FaArrowLeft className="text-white cursor-pointer mx-3 mt-5 text-4xl hover:text-amber-400 hover:transition-all hover:duration-200" />
         </button>

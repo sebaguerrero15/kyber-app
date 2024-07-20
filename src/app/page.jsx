@@ -3,6 +3,8 @@
 import FooterComponent from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Menu from "../components/Menu";
+import DestacadosPelis from "../components/DestacadosPelis"
+import DestacadosSeries from "../components/DestacadosSeries"
 import SeriesFetcher from "../store/useFetcher"
 
 
@@ -14,7 +16,8 @@ const Home = () => {
       <div>
         <Navbar />
         <Menu />
-        {/* Destacados */}
+        <DestacadosSeries />
+        <DestacadosPelis />
         <FooterComponent />
       </div>
       

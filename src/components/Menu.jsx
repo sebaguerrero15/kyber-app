@@ -1,6 +1,7 @@
 "use client";
 
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Menu = () => {
   return (
@@ -9,13 +10,13 @@ const Menu = () => {
             <div className='flex justify-center items-center gap-4 m-2 font-bold text-xl'>
             <Link href="/caricatura">
                 <button className='w-52 h-32 bg-slate-500 border-none uppercase text-white rounded-lg'>
-                    Series Animadas
+                    Series Animación
                 </button>
             </Link>
 
                 <Link href="/peliculas">
-                <button className="w-52 h-32 bg-[url('https://pa1.aminoapps.com/6694/c4fa8ff034986d3f21c219fca3d96e9fea9a2046_00.gif')] bg-black bg-opacity-45 border-transparent uppercase text-white rounded-lg hover:border-4 hover:border-white transition-all duration-75">
-                    Películas Animadas
+                <button className="w-52 h-32 bg-[url('https://pa1.aminoapps.com/6694/c4fa8ff034986d3f21c219fca3d96e9fea9a2046_00.gif')] border-transparent uppercase text-white rounded-lg hover:border-4 hover:border-white transition-all duration-75">
+                    Películas Animación
                 </button>
                 </Link>
             </div>
