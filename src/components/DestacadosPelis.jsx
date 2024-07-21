@@ -34,7 +34,7 @@ const DestacadosPelis =  () => {
                   className='flex flex-col justify-center rounded-xl m-4'
                  >
                  <Link href={`/peliculas/${pelicula._id}`}>
-                 <Image src={pelicula.image} width={250} height={200} alt={pelicula.name} className="w-[100px] h-[200px] sm:w-[200px] sm:h-[300px] rounded-xl transition-all duration-75 border-4 border-transparent hover:border-white"/>
+                 <Image src={pelicula.image} width={250} height={200} alt={pelicula.name} className="w-[150px] h-[250px] sm:w-[200px] sm:h-[300px] rounded-xl transition-all duration-75 border-4 border-transparent hover:border-white"/>
                
                </Link>
                  </motion.div>

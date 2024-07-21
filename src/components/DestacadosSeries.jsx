@@ -34,7 +34,7 @@ const DestacadosSeries =  () => {
                   className='flex flex-col justify-center rounded-xl m-4'
                  >
                  <Link href={`/caricatura/${serie._id}`}>
-                 <Image src={serie.image} width={300} height={250} alt={serie.name} className="w-[100px] h-[200px] sm:w-[200px] sm:h-[300px] rounded-xl transition-all duration-75 border-4 border-transparent hover:border-white"/>
+                 <Image src={serie.image} width={300} height={250} alt={serie.name} className="w-[150px] h-[250px] sm:w-[200px] sm:h-[300px] rounded-xl transition-all duration-75 border-4 border-transparent hover:border-white"/>
                
                </Link>
                  </motion.div>
