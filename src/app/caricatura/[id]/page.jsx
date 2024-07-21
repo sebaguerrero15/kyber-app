@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import Dropdown from "../../../components/Dropdown";
 import { FaArrowLeft } from "react-icons/fa";
+import { MdHome } from "react-icons/md";
 import useSeriesStore from "../../../store/store";
 import Link from "next/link";
 
@@ -48,11 +49,15 @@ const SerieDetails = ({ params }) => {
         backgroundPosition: 'center',
       }}
     >
+      <div className="flex items-center gap-3">
       <Link href="https://kyber-swart.vercel.app/caricatura">
-        <button>
           <FaArrowLeft className="text-white cursor-pointer mx-3 mt-5 text-4xl hover:text-amber-400 hover:transition-all hover:duration-200" />
-        </button>
       </Link>
+
+      <Link href={"/"}>
+      <MdHome className="text-white cursor-pointer mx-3 mt-5 text-5xl hover:text-amber-400 hover:transition-all hover:duration-200"/>
+      </Link>
+      </div>
 
       <div className="container mx-auto flex flex-col justify-center items-center text-white">
         <div className="flex flex-col mt-6 gap-2 sm:mt-12">
