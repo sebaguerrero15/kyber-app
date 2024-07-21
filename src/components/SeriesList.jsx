@@ -19,7 +19,7 @@ const SeriesList = ({serie}) => {
        className='flex justify-center items-center rounded-xl m-4'
       >
       <Link href={`/caricatura/${serie._id}`}>
-      <Image src={serie.image} width={250} height={200} alt={serie.name} className="rounded-xl transition-all duration-75 border-4 border-transparent hover:border-white"/>
+      <Image src={serie.image} width={250} height={200} alt={serie.name} className="w-[200px] h-[300px] rounded-xl transition-all duration-75 border-4 border-transparent hover:border-white"/>
     
     </Link>
       </motion.div>

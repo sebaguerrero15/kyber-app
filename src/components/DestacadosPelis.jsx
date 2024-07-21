@@ -16,8 +16,8 @@ const DestacadosPelis =  () => {
 
     <section>
       <div className="container mx-auto">
-      <h2 className="text-2xl text-gray-300 font-bold mt-4 mx-4">Películas de Animación</h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-2 mb-5">
+      <h2 className="text-2xl text-gray-300 font-bold mt-4 mx-4">Películas de Animación Destacadas</h2>
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-2 mb-5">
             {peliculas.map((pelicula) => (
                 <>
                <article>
@@ -34,7 +34,7 @@ const DestacadosPelis =  () => {
                   className='flex flex-col justify-center rounded-xl m-4'
                  >
                  <Link href={`/peliculas/${pelicula._id}`}>
-                 <Image src={pelicula.image} width={250} height={200} alt={pelicula.name} className="rounded-xl transition-all duration-75 border-4 border-transparent hover:border-white"/>
+                 <Image src={pelicula.image} width={250} height={200} alt={pelicula.name} className="w-[200px] h-[300px] rounded-xl transition-all duration-75 border-4 border-transparent hover:border-white"/>
                
                </Link>
                  </motion.div>

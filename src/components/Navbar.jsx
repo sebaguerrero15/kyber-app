@@ -2,9 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { BiSolidCameraMovie } from "react-icons/bi";
-import { FaSearch } from "react-icons/fa";
-import { MdFavorite } from "react-icons/md";
+
 
 
 const Navbar = () => {
@@ -23,17 +21,7 @@ const Navbar = () => {
           />
         </Link>
 
-        <Link href="/peliculas" className="ml-[45px]">
-        <BiSolidCameraMovie className="text-2xl cursor-pointer"/>
-        </Link>
-
-        <Link href="/">
-        <FaSearch className="text-xl cursor-pointer"/>
-        </Link>
-
-        <Link href="/">
-        <MdFavorite className="text-xl cursor-pointer"/>
-        </Link>
+      
         </div>
 
 
