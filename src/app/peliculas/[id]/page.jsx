@@ -73,7 +73,7 @@ const PeliculaDetails = ({ params }) => {
               </div>
 
               <div className="flex justify-center items-center m-2">
-                <iframe width="653" height="480" src="https://www.youtube.com/embed/N2lzGmhf0yY" title="EL GRINCH Trailer Oficial Español Latino (2018)" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                <iframe width="653" height="480" src={pelicula.trailer} title={pelicula.name} frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
               </div>
             </div>
           </div>

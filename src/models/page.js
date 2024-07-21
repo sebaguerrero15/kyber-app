@@ -17,6 +17,7 @@ const peliculasSchema = new mongoose.Schema({
   image: String,
   background: String,
   link: String,
+  trailer: String
 });
 
 const Series = mongoose.models.Series || mongoose.model('Series', seriesSchema);
