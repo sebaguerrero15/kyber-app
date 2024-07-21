@@ -61,6 +61,18 @@ const nextConfig = {
         hostname: 'images-2.rakuten.tv',
         port: '',
         pathname: '/storage/snapshot/shot/c2c97ef2-3ad7-452f-a572-9ab682d27e37.jpeg',
+      },
+      {
+        protocol: 'https',
+        hostname: 'es.web.img2.acsta.net',
+        port: '',
+        pathname: '/pictures/21/05/11/13/47/5979708.jpg',
+      },
+      {
+        protocol: 'https',
+        hostname: 'livewallp.com',
+        port: '',
+        pathname: '/wp-content/uploads/2021/08/Ghibli-Spirited-Away-No-Face-Chihiro.jpg',
       }
     ],
   },
@@ -84,7 +96,7 @@ const nextConfig = {
           {
             key: 'Access-Control-Allow-Headers',
             value: 'X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version',
-          },
+          }
         ],
       },
     ];
