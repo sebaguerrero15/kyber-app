@@ -18,7 +18,7 @@ const FooterComponent = () => {
                     <Link href="/about" className="hover:underline me-4 md:me-6">Acerca de Nosotros</Link>
                 </li>
                 <li>
-                    <Link href="#" className="hover:underline me-4 md:me-6">Politicas de Privacidad</Link>
+                    <Link href="/privacy" className="hover:underline me-4 md:me-6">Politicas de Privacidad</Link>
                 </li>
                 <li>
                     <Link href="#" className="hover:underline">Contacto</Link>

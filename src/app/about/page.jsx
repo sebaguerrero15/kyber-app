@@ -25,7 +25,7 @@ const About = () => {
                 <p className='text-xl'>Nos comprometemos a ofrecerte una experiencia de usuario excepcional, con contenido de alta calidad y una navegación sencilla y agradable. Cada miembro de nuestro equipo es un verdadero fanático de lo retro, y trabajamos con dedicación para que cada visita a nuestra página sea un viaje nostálgico inolvidable.</p>
                 <br />
 
-                <div className="flex flex-col justify-center items-center mt-10">
+                <div className="flex flex-col justify-center items-center mt-10 mb-20">
                     <Image src="/logo.png" width={150} height={250} alt="logo"/>
                     <p>Equipo Kyber.</p>
                 </div>
