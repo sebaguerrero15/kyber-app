@@ -73,6 +73,30 @@ const nextConfig = {
         hostname: 'livewallp.com',
         port: '',
         pathname: '/wp-content/uploads/2021/08/Ghibli-Spirited-Away-No-Face-Chihiro.jpg',
+      },
+      {
+        protocol: 'https',
+        hostname: 'pics.filmaffinity.com',
+        port: '',
+        pathname: '/tom_and_jerry_tom_jerry_tv_series-202407065-large.jpg',
+      },
+      {
+        protocol: 'https',
+        hostname: 'wallpaper.dog',
+        port: '',
+        pathname: '/large/17273748.jpg',
+      },
+      {
+        protocol: 'https',
+        hostname: 'pics.filmaffinity.com',
+        port: '',
+        pathname: '/Ninja_Turtles_Caos_mutante-886922545-large.jpg',
+      },
+      {
+        protocol: 'https',
+        hostname: 'i.blogs.es',
+        port: '',
+        pathname: '/26e56d/slack-imgs/1366_2000.jpeg',
       }
     ],
   },
