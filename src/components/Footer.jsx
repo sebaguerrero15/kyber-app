@@ -15,7 +15,7 @@ const FooterComponent = () => {
         <div className="grid grid-cols-2 sm:flex items-center sm:justify-around">
         <ul className="mb-6 m-4 space-y-2 text-md font-medium text-white sm:mb-0">
                 <li>
-                    <Link href="#" className="hover:underline me-4 md:me-6">Acerca de Nosotros</Link>
+                    <Link href="/about" className="hover:underline me-4 md:me-6">Acerca de Nosotros</Link>
                 </li>
                 <li>
                     <Link href="#" className="hover:underline me-4 md:me-6">Politicas de Privacidad</Link>
