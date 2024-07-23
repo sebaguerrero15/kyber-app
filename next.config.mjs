@@ -97,6 +97,18 @@ const nextConfig = {
         hostname: 'i.blogs.es',
         port: '',
         pathname: '/26e56d/slack-imgs/1366_2000.jpeg',
+      },
+      {
+        protocol: 'https',
+        hostname: 'cdnx.jumpseller.com',
+        port: '',
+        pathname: '/peliculas-de-papel/image/25152883/up_movie.jpg',
+      },
+      {
+        protocol: 'https',
+        hostname: 'wallpapercave.com',
+        port: '',
+        pathname: '/wp/Ou1L18s.jpg',
       }
     ],
   },

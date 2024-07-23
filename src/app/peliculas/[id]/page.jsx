@@ -63,7 +63,7 @@ const PeliculaDetails = ({ params }) => {
       <div className='container mx-auto flex flex-col justify-center items-center text-white'>
         <div className='flex flex-col gap-2 mt-12'>
           <h2 className="text-4xl m-2 sm:text-center sm:text-[80px] font-bold md:text-start">{pelicula.name}</h2>
-          <p className="m-2 text-xl md:mr-[580px]">{pelicula.description}</p>
+          <p className="m-2 mt-10 text-xl md:mr-[580px]">{pelicula.description}</p>
         </div>
 
         <div className="container mx-auto">
