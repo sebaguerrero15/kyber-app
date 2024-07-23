@@ -33,7 +33,7 @@ const Dropdown = ({ serie }) => {
       </div>
 
       {isOpen && (
-        <button className="flex flex-col justify-center gap-3 md:justify-start rounded-xl border border-black bg-black shadow-sm px-[76px] py-2 text-white text-lg font-medium">
+        <button className="flex flex-col justify-center m-2 gap-3 md:justify-start rounded-xl border border-black bg-black shadow-sm px-[76px] py-2 text-white text-lg font-medium">
           {serie.seasons.map((season, index) => (
             <p
               key={index}
