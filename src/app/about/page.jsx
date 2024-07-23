@@ -27,7 +27,7 @@ const About = () => {
 
                 <div className="flex flex-col justify-center items-center mt-10 mb-20">
                     <Image src="/logo.png" width={150} height={250} alt="logo"/>
-                    <p>Equipo Kyber.</p>
+                    <p className="mb-10">Equipo Kyber.</p>
                 </div>
             </div>
       </div>
