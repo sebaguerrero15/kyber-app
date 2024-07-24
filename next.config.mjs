@@ -181,6 +181,12 @@ const nextConfig = {
         hostname: 'images6.alphacoders.com',
         port: '',
         pathname: '/132/1324057.jpeg',
+      },
+      {
+        protocol: 'https',
+        hostname: 'cdnebasnet.com',
+        port: '',
+        pathname: '/data/cache/opt_png/eshop/funnatic/images/posts/524-1675765865-1400x1400.png',
       }
     ],
   },
