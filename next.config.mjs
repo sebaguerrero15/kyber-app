@@ -169,6 +169,12 @@ const nextConfig = {
         hostname: 'image.tmdb.org',
         port: '',
         pathname: '/t/p/original/hljMglukfpnfaNmUgMuORmL4OVW.jpg',
+      },
+      {
+        protocol: 'https',
+        hostname: 'cdnebasnet.com',
+        port: '',
+        pathname: '/data/cache/opt_png/eshop/funnatic/images/posts/524-1675765865-1400x1400.png',
       }
     ],
   },
