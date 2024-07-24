@@ -109,6 +109,30 @@ const nextConfig = {
         hostname: 'wallpapercave.com',
         port: '',
         pathname: '/wp/Ou1L18s.jpg',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.lavanguardia.com',
+        port: '',
+        pathname: '/peliculas-series/images/serie/poster/2003/11/w1280/2lsuke69bRdyB1sxtKmavtwkc35.jpg',
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.bauerhosting.com',
+        port: '',
+        pathname: '/legacy/empire-tmdb/tv/3122/images/3cm01zF1SBEhYfmpsPiDqIe2Rcn.jpg',
+      },
+      {
+        protocol: 'https',
+        hostname: 'm.media-amazon.com',
+        port: '',
+        pathname: '/images/S/pv-target-images/97b33f74bb58ecdc877111b9cad972f91ed8802b9a9a199ab638e9a0923a0f4a.jpg',
+      },
+      {
+        protocol: 'https',
+        hostname: 'image.tmdb.org',
+        port: '',
+        pathname: '/t/p/original/6ydGnzbo8s4yRNqQWPAvVSiNU8N.jpg',
       }
     ],
   },
