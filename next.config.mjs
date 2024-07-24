@@ -133,6 +133,18 @@ const nextConfig = {
         hostname: 'image.tmdb.org',
         port: '',
         pathname: '/t/p/original/6ydGnzbo8s4yRNqQWPAvVSiNU8N.jpg',
+      },
+      {
+        protocol: 'https',
+        hostname: 'image.tmdb.org',
+        port: '',
+        pathname: '/t/p/original/4EaTwlQf7IpbKXn8EHjgPUbuAmq.jpg',
+      },
+      {
+        protocol: 'https',
+        hostname: 'i.pinimg.com',
+        port: '',
+        pathname: '/originals/1a/2f/31/1a2f31ad1218d29a7bd834c908516ebc.jpg',
       }
     ],
   },
