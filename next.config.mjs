@@ -157,6 +157,18 @@ const nextConfig = {
         hostname: 'fondosmil.co',
         port: '',
         pathname: '/fondo/11690.jpg',
+      },
+      {
+        protocol: 'https',
+        hostname: 'es.web.img2.acsta.net',
+        port: '',
+        pathname: '/pictures/21/05/11/13/47/5979708.jpg',
+      },
+      {
+        protocol: 'https',
+        hostname: 'es.web.img2.acsta.net',
+        port: '',
+        pathname: '/pictures/21/05/11/13/47/5979708.jpg',
       }
     ],
   },
