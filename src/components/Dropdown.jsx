@@ -48,7 +48,7 @@ const Dropdown = ({ serie }) => {
       )}
 
       {selectedSeason && (
-        <Suspense fallback={<Loading />}>
+       
         <div className="grid grid-cols-1 items-center md:grid-cols-2 lg:grid-cols-3 mt-12 gap-8">
           {selectedSeason.links.map((link, index) => (
             <motion.div
@@ -64,6 +64,7 @@ const Dropdown = ({ serie }) => {
                 transition={{ duration: 0.5 }}
                 className='rounded-xl relative p-2 sm:transition-all sm:duration-75 sm:border-4 sm:border-transparent sm:hover:border-white'
               >
+              <Suspense fallback={<p className='text-white text-4xl text-center'>loading...</p>}>
                 <Link href={link.link} >
                   <iframe
                     src={link.link}
@@ -75,11 +76,12 @@ const Dropdown = ({ serie }) => {
                   />
                   <p className='mt-2 text-center'>{link.name}</p>
                 </Link>
+                </Suspense>
               </motion.div>
             </motion.div>
           ))}
         </div>
-        </Suspense>
+        
       )}
     </div>
   );
