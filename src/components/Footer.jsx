@@ -21,7 +21,7 @@ const FooterComponent = () => {
                     <Link href="/privacy" className="hover:underline me-4 md:me-6">Politicas de Privacidad</Link>
                 </li>
                 <li>
-                    <Link href="#" className="hover:underline">Contacto</Link>
+                    <Link href="/contacto" className="hover:underline">Contacto</Link>
                 </li>
             </ul>
 
@@ -33,7 +33,7 @@ const FooterComponent = () => {
              </Link>
              
              {/* logo web */}
-             <Link href={"https://www.paypal.com/ncp/payment/M94ZUAW2MSWQS"} target="_blank" className="flex items-center mb-4 sm:mb-0">
+             <Link href={"https://www.paypal.com/ncp/payment/9XPEUC59E89KC"} target="_blank" className="flex items-center mb-4 sm:mb-0">
               <Image src={"/paypal.png"} width={300} height={300} className="cursor-pointer relative" alt="logo paypal" />
              </Link>
              </div>
@@ -42,7 +42,7 @@ const FooterComponent = () => {
         </div>
 
         {/* <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" /> */}
-        <span className="block text-sm text-gray-500 text-center">Kyber© {date} Todos los derechos Reservados.</span>
+        <span className="block text-sm text-gray-500 text-center">SG - Kyber© {date} Todos los derechos Reservados.</span>
     </div>
 </footer>
 

@@ -17,11 +17,11 @@ const About = () => {
                 <p className='text-xl'>Bienvenidos a Kyber, tu destino definitivo para revivir la magia de las series y películas retro. Somos apasionados por el cine clásico y la televisión de antaño, y hemos creado este espacio para todos los amantes de lo retro que comparten nuestra pasión por las joyas audiovisuales del pasado.</p>
                 <br />
 
-                <h3 className='font-semibold text-2xl text-center'>Nuestra Misión</h3>
+                <h3 className='font-semibold text-3xl text-center block'>Nuestra Misión</h3>
                 <p className='text-xl'>En Kyber, nuestra misión es preservar y celebrar las series y películas que marcaron una época. Queremos ofrecerte una ventana al pasado, donde puedas disfrutar de aquellos títulos que hicieron historia y que siguen siendo relevantes hoy en día. Creemos que las historias y personajes de estas obras tienen un valor atemporal que merece ser redescubierto y compartido con nuevas generaciones.</p>
                 <br />
 
-                <h3 className='font-semibold text-2xl text-center'>Nuestro Compromiso</h3>
+                <h3 className='font-semibold text-3xl text-center block'>Nuestro Compromiso</h3>
                 <p className='text-xl'>Nos comprometemos a ofrecerte una experiencia de usuario excepcional, con contenido de alta calidad y una navegación sencilla y agradable. Cada miembro de nuestro equipo es un verdadero fanático de lo retro, y trabajamos con dedicación para que cada visita a nuestra página sea un viaje nostálgico inolvidable.</p>
                 <br />
 

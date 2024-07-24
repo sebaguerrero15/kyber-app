@@ -17,7 +17,7 @@ const Privacy = () => {
                 <p className='text-xl'>En Kyber, nos tomamos muy en serio la privacidad y la seguridad de tus datos personales. Esta política de privacidad describe cómo recopilamos, utilizamos y protegemos tu información personal cuando visitas y utilizas nuestro sitio web.</p>
                 <br />
 
-                <h3 className='font-semibold text-2xl text-center'>Información que Recopilamos</h3>
+                <h3 className='font-semibold text-3xl text-center'>Información que Recopilamos</h3>
                     <ol className="text-xl">
                         <li>
                             <p>Información Personal: Incluye datos como tu nombre, dirección de correo electrónico y cualquier otra información que nos proporciones voluntariamente al registrarte en nuestro sitio, suscribirte a nuestros boletines o participar en nuestras encuestas y concursos.</p>
@@ -33,7 +33,7 @@ const Privacy = () => {
                     </ol>
                 <br />
 
-                <h3 className='font-semibold text-2xl text-center'>Como utilizamos tu Información</h3>
+                <h3 className='font-semibold text-3xl text-center'>Como utilizamos tu Información</h3>
                     <ul className="text-xl">
                         <li>
                         * Proveer y mantener nuestros servicios.
@@ -53,7 +53,7 @@ const Privacy = () => {
                     </ul>
                     <br />
 
-                    <h3 className='font-semibold text-2xl text-center'>Compartir Información</h3>
+                    <h3 className='font-semibold text-3xl text-center'>Compartir Información</h3>
                     <p className="text-xl">No vendemos ni alquilamos tu información personal a terceros. Sin embargo, podemos compartir tu información en las siguientes circunstancias:</p>
                     <br />
 
@@ -72,7 +72,7 @@ const Privacy = () => {
                     </ul>
 
                     <br />
-                    <h3 className='font-semibold text-2xl text-center'>Seguridad de la Información</h3>
+                    <h3 className='font-semibold text-3xl text-center'>Seguridad de la Información</h3>
                     <p className="text-xl">
                     Implementamos medidas de seguridad razonables para proteger tu información personal contra accesos no autorizados, alteraciones, divulgación o destrucción. Sin embargo, ninguna transmisión de datos por Internet o sistema de almacenamiento es completamente seguro. Por lo tanto, no podemos garantizar la seguridad absoluta de tu información.
                     </p>
