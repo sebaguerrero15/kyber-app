@@ -118,9 +118,9 @@ const nextConfig = {
       },
       {
         protocol: 'https',
-        hostname: 'images.bauerhosting.com',
+        hostname: 'image.tmdb.org',
         port: '',
-        pathname: '/legacy/empire-tmdb/tv/3122/images/3cm01zF1SBEhYfmpsPiDqIe2Rcn.jpg',
+        pathname: '/t/p/original/pxkeqSHfTkefKz0y5naAX1u9cDw.jpg',
       },
       {
         protocol: 'https',
