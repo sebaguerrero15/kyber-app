@@ -172,9 +172,15 @@ const nextConfig = {
       },
       {
         protocol: 'https',
-        hostname: 'cdnebasnet.com',
+        hostname: 'ih1.redbubble.net',
         port: '',
-        pathname: '/data/cache/opt_png/eshop/funnatic/images/posts/524-1675765865-1400x1400.png',
+        pathname: '/image.4146767396.9231/flat,750x,075,f-pad,750x1000,f8f8f8.jpg',
+      },
+      {
+        protocol: 'https',
+        hostname: 'images6.alphacoders.com',
+        port: '',
+        pathname: '/132/1324057.jpeg',
       }
     ],
   },
