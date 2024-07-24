@@ -160,15 +160,15 @@ const nextConfig = {
       },
       {
         protocol: 'https',
-        hostname: 'es.web.img2.acsta.net',
+        hostname: 'm.media-amazon.com',
         port: '',
-        pathname: '/pictures/21/05/11/13/47/5979708.jpg',
+        pathname: '/images/S/pv-target-images/5bd99ab84b33fe301e320d86f72f3c41d6cbb3b3c652b34babcd87dc13c34b14.jpg',
       },
       {
         protocol: 'https',
-        hostname: 'es.web.img2.acsta.net',
+        hostname: 'image.tmdb.org',
         port: '',
-        pathname: '/pictures/21/05/11/13/47/5979708.jpg',
+        pathname: '/t/p/original/hljMglukfpnfaNmUgMuORmL4OVW.jpg',
       }
     ],
   },
