@@ -145,6 +145,18 @@ const nextConfig = {
         hostname: 'i.pinimg.com',
         port: '',
         pathname: '/originals/1a/2f/31/1a2f31ad1218d29a7bd834c908516ebc.jpg',
+      },
+      {
+        protocol: 'https',
+        hostname: 'es.web.img2.acsta.net',
+        port: '',
+        pathname: '/pictures/14/04/30/10/41/026995.jpg',
+      },
+      {
+        protocol: 'https',
+        hostname: 'fondosmil.co',
+        port: '',
+        pathname: '/fondo/11690.jpg',
       }
     ],
   },
