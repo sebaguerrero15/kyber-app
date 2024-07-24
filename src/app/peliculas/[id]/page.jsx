@@ -81,7 +81,7 @@ const PeliculaDetails = ({ params }) => {
               <h3 className="text-3xl font-bold mb-3">Tráiler</h3>
 
                 <iframe src={`https://www.youtube.com/embed/${pelicula.trailer}`} 
-                 frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen className="w-[350px] h-[200px] sm:w-[550px] sm:h-[400px] overflow-hidden pointer-events-none">
+                 frameBorder="0" className="w-[350px] h-[200px] sm:w-[550px] sm:h-[400px] overflow-hidden">
                 </iframe>
 
               </div>
