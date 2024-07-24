@@ -172,9 +172,9 @@ const nextConfig = {
       },
       {
         protocol: 'https',
-        hostname: 'ih1.redbubble.net',
+        hostname: 'tv-fanatic-res.cloudinary.com',
         port: '',
-        pathname: '/image.4146767396.9231/flat,750x,075,f-pad,750x1000,f8f8f8.jpg',
+        pathname: '/iu/s--Mo-k33Qe--/t_full/cs_srgb,f_auto,fl_strip_profile.lossy,q_auto:420/v1672282843/primal-key-art.jpg',
       },
       {
         protocol: 'https',
