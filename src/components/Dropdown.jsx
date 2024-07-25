@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { useState, Suspense } from 'react';
 import { MdKeyboardArrowDown } from "react-icons/md";
 import { motion } from "framer-motion";
-import Loading from "../app/loading"
+
 
 const Dropdown = ({ serie }) => {
   const [isOpen, setIsOpen] = useState(false);

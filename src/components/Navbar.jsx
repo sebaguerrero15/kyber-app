@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-
+import { FaSearch } from "react-icons/fa";
 
 
 const Navbar = () => {
@@ -21,12 +21,15 @@ const Navbar = () => {
           />
         </Link>
 
-      
-        </div>
+        <Link href="/buscar" className="space-x-2">
+          <button className="flex justify-center items-center gap-2 bg-black hover:bg-gray-900 text-white font-bold py-2 px-4 rounded-lg m-2 text-2xl">
+            Buscar <FaSearch className="text-lg" />
+          </button>
+        </Link>
+      </div>
 
 
         </div>
-        
     </header>
   )
 }

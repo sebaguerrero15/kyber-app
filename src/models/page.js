@@ -3,6 +3,8 @@ import mongoose from "mongoose";
 const seriesSchema = new mongoose.Schema({
   name: String,
   description: String,
+  category: [{ name: String }],
+  rating: Number,
   image: String,
   background: String,
   seasons: [{
@@ -14,6 +16,8 @@ const seriesSchema = new mongoose.Schema({
 const peliculasSchema = new mongoose.Schema({
   name: String,
   description: String,
+  category: [{ name: String }],
+  rating: Number,
   image: String,
   background: String,
   link: String,
