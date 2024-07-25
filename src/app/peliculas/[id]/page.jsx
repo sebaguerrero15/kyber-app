@@ -34,9 +34,13 @@ const PeliculaDetails = ({ params }) => {
 
   const pelicula = selectedPelicula;
 
+  console.log(pelicula)
+
   if (!pelicula) {
     return <Loading />;
   }
+
+  const categories = Array.isArray(pelicula.category) ? pelicula.category: [];
 
   return (
     <section
@@ -67,7 +71,7 @@ const PeliculaDetails = ({ params }) => {
           <p className="m-2 mt-10 text-xl md:mr-[580px]">{pelicula.description}</p>
 
             <div className="flex justify-center items-center gap-2">
-            {pelicula.category.map((cat, index) => (
+            {categories.map((cat, index) => (
               <p className="text-gray-400" key={index}>{cat}</p>
             ))}
             </div>

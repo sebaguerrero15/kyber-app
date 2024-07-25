@@ -33,11 +33,10 @@ const SerieDetails = ({ params }) => {
 
   const serie = selectedSerie;
 
-  console.log(serie)
-
   if (!serie) {
     return null; // Handle loading or error state as needed
   }
+
 
   return (
     <section
@@ -68,12 +67,10 @@ const SerieDetails = ({ params }) => {
           <p className="m-2 text-xl md:mr-[580px]">{serie.description}</p>
         </div>
 
-        <div className="flex justify-center items-center gap-2">
-            {serie.category.map((cat, index) => (
-              <p className="text-gray-400" key={index}>{cat}</p>
+            {serie.category[0].map((cat, index) => (
+              <p className="text-gray-400 text-lg text-center" key={index}>{cat}</p>
             ))}
-            </div>
-
+          
             <p className="flex items-center gap-2 text-xl font-bold m-2"><span><TiStarFullOutline className="text-amber-400"/></span>{serie.rating}
             </p>
 
