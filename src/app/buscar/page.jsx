@@ -9,6 +9,8 @@ import Navbar from "../../components/Navbar";
 import Menu from "../../components/Menu";
 import FooterComponent from "../../components/Footer";
 
+
+
 const SearchComponent = () => {
   const { searchByName, searchResults } = useSeriesStore();
   const [query, setQuery] = useState('');

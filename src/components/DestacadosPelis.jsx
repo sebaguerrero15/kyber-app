@@ -8,8 +8,11 @@ import { motion } from "framer-motion";
 
 const DestacadosPelis =  () => {
    
-  const peliculas = useSeriesStore((state) => state.peliculas);
+  const data = useSeriesStore((state) => state.peliculas);
 
+  const peliculas = data.category.sort(function (a, b) {
+    return a - b;
+  });
 
   return (
   <>
