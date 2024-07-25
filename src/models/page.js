@@ -5,6 +5,7 @@ const seriesSchema = new mongoose.Schema({
   description: String,
   category: [{ name: String }],
   rating: Number,
+  type: String,
   image: String,
   background: String,
   seasons: [{
@@ -18,6 +19,7 @@ const peliculasSchema = new mongoose.Schema({
   description: String,
   category: [{ name: String }],
   rating: Number,
+  type: String,
   image: String,
   background: String,
   link: String,

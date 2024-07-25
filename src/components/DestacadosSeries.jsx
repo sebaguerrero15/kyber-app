@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 const DestacadosSeries =  () => {
    
   const series = useSeriesStore((state) => state.series);
-
+  const sortedSeries = series && series.length > 0 ? series.sort((a, b) => b.rating - a.rating).slice(0, 5) : [];
 
   return (
   <>
@@ -18,7 +18,7 @@ const DestacadosSeries =  () => {
       <div className="container mx-auto">
       <h2 className="text-2xl text-gray-300 font-bold mt-4 mx-4">Series de Animación Destacadas</h2>
           <div className="grid grid-cols-2 md:grid-cols-5 gap-2 mb-5">
-            {series.map((serie) => (
+            {sortedSeries.map((serie) => (
                 <>
                <article>
                <motion.div
