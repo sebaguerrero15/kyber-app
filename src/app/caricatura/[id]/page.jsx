@@ -38,6 +38,7 @@ const SerieDetails = ({ params }) => {
   }
 
 
+
   return (
     <section
       className={`min-h-[80vh] pb-12 ${
@@ -65,14 +66,15 @@ const SerieDetails = ({ params }) => {
         <div className="flex flex-col mt-6 gap-2 sm:mt-12">
           <h2 className="text-4xl m-2 sm:text-center sm:text-[80px] font-bold md:text-start">{serie.name}</h2>
           <p className="m-2 text-xl md:mr-[580px]">{serie.description}</p>
+          
+          <p>{serie.category[0].name}</p>
+
+          <p className="flex items-center gap-2 text-xl font-bold m-2"><span><TiStarFullOutline className="text-amber-400"/></span>{serie.rating}
+          </p>
         </div>
 
-            {serie.category[0].map((cat, index) => (
-              <p className="text-gray-400 text-lg text-center" key={index}>{cat}</p>
-            ))}
           
-            <p className="flex items-center gap-2 text-xl font-bold m-2"><span><TiStarFullOutline className="text-amber-400"/></span>{serie.rating}
-            </p>
+           
 
         <div className="container mx-auto mt-10">
           <div className="flex flex-col gap-2">

@@ -70,11 +70,7 @@ const PeliculaDetails = ({ params }) => {
           <h2 className="text-4xl m-2 sm:text-center sm:text-[80px] font-bold md:text-start">{pelicula.name}</h2>
           <p className="m-2 mt-10 text-xl md:mr-[580px]">{pelicula.description}</p>
 
-            <div className="flex justify-center items-center gap-2">
-            {categories.map((cat, index) => (
-              <p className="text-gray-400" key={index}>{cat}</p>
-            ))}
-            </div>
+          <p>{pelicula.category[0].name}</p>
 
           <p className="flex items-center gap-2 text-xl font-bold m-2"><span><TiStarFullOutline className="text-amber-400"/></span>{pelicula.rating}
           </p>
