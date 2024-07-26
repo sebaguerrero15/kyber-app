@@ -2,6 +2,8 @@
 
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2/dist/sweetalert2.js'
+import 'sweetalert2/src/sweetalert2.scss'
 import Image from "next/image";
 import Navbar from "../../components/Navbar";
 import Menu from "../../components/Menu";
@@ -26,9 +28,23 @@ const About = () => {
     .then(
         () => {
           console.log('Enviado!');
+          Swal.fire({
+            position: "bottom-end",
+            icon: "success",
+            title: "Mensaje Enviado Correctamente!",
+            showConfirmButton: false,
+            timer: 1500
+          });
           reset();
         },
         (error) => {
+          Swal.fire({
+            position: "top-end",
+            icon: "error",
+            title: "Error en el envio del mensaje",
+            showConfirmButton: false,
+            timer: 1500
+          });
           console.log('Error en el envio...', error.text);
         },
       );
