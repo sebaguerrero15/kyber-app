@@ -67,7 +67,16 @@ const SerieDetails = ({ params }) => {
           <h2 className="text-4xl m-2 sm:text-center sm:text-[80px] font-bold md:text-start">{serie.name}</h2>
           <p className="m-2 text-xl md:mr-[580px]">{serie.description}</p>
           
-          <p>{serie.category[0].name}</p>
+          <div className="flex flex-wrap gap-2">
+            {serie.category.map((category, index) => (
+              <div key={index} className="border py-1 px-4 rounded-lg">
+              <p className="text-white">
+            {category.name}
+             </p>
+              </div>
+           
+             ))}
+           </div>
 
           <p className="flex items-center gap-2 text-xl font-bold m-2"><span><TiStarFullOutline className="text-amber-400"/></span>{serie.rating}
           </p>
