@@ -37,7 +37,7 @@ const About = () => {
           <h2 className="text-3xl text-white font-bold text-center mt-12">
             Contacto
           </h2>
-          <p className="text-white text-xl text-justify m-2 sm:text-center">Si necesitas que agreguemos alguna serie, película o alguna sugerencia no dudes en contactarnos 😄</p>
+          <p className="text-white text-xl text-justify m-2 sm:text-center">Si necesitas que agreguemos alguna serie, película, reportar algún link caído o alguna sugerencia no dudes en contactarnos 😄</p>
           <div className="text-white mt-4 m-2">
           <form ref={form} onSubmit={sendEmail} className="w-[350px] h-[500px] sm:w-[600px] mx-auto">
                 <label className="block m-2 mb-2 text-xl font-medium text-white">

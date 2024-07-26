@@ -5,6 +5,7 @@ import Dropdown from "../../../components/Dropdown";
 import { FaArrowLeft } from "react-icons/fa";
 import { MdHome } from "react-icons/md";
 import { TiStarFullOutline } from "react-icons/ti";
+import { MoonLoader } from "react-spinners";
 import useSeriesStore from "../../../store/store";
 import Link from "next/link";
 
@@ -34,7 +35,7 @@ const SerieDetails = ({ params }) => {
   const serie = selectedSerie;
 
   if (!serie) {
-    return null; // Handle loading or error state as needed
+    return <MoonLoader color="#03d4ff" size={50} /> 
   }
 
 

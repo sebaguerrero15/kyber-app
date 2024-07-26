@@ -33,7 +33,7 @@ const SearchComponent = () => {
             className="m-2 text-lg text-black bg-gray-400 border border-gray-300 rounded-lg block p-2.5 w-[600px] placeholder:text-gray-700 mt-12"
           />
           <button
-            className="m-2 mt-12 px-5 py-2.5 text-center text-white bg-gradient-to-br from-sky-950 to-teal-900 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 border-transparent uppercase rounded-lg hover:border-4 hover:border-white hover:bg-black transition-all duration-100"
+            className="m-2 px-5 py-2.5 mt-12 text-white bg-gradient-to-br from-sky-950 to-teal-900 uppercase rounded-lg"
             onClick={handleSearch}
           >
             Buscar
