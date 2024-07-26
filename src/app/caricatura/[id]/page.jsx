@@ -8,20 +8,18 @@ import { TiStarFullOutline } from "react-icons/ti";
 import { MoonLoader } from "react-spinners";
 import useSeriesStore from "../../../store/store";
 import Link from "next/link";
-import { useRouter } from "next/router";
+
 
 const SerieDetails = ({ params }) => {
   const [isSmallScreen, setIsSmallScreen] = useState(false);
   const serieId = params.id;
   const fetchSerieById = useSeriesStore((state) => state.fetchSerieById);
   const selectedSerie = useSeriesStore((state) => state.selectedSerie);
-  const router = useRouter();
+ 
 
   useEffect(() => {
     if (serieId) {
-      fetchSerieById(serieId).catch((error) => {
-        console.error("Error fetching serie:", error);
-      });
+      fetchSerieById(serieId)
     }
 
     const handleResize = () => {

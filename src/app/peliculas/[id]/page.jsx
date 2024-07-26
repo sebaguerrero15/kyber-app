@@ -17,9 +17,7 @@ const PeliculaDetails = ({ params }) => {
 
   useEffect(() => {
     if (peliculaId) {
-      fetchPeliculaById(peliculaId).catch((error) => {
-        console.error("Error fetching pelicula:", error);
-      });
+      fetchPeliculaById(peliculaId)
     }
 
     const handleResize = () => {
