@@ -76,9 +76,9 @@ const SerieDetails = ({ params }) => {
       <div className="container mx-auto flex flex-col justify-center items-center text-white">
         <div className="flex flex-col mt-6 gap-2 sm:mt-12">
           <h2 className="text-4xl m-2 sm:text-center sm:text-[80px] font-bold md:text-start">{serie.name}</h2>
-          <p className="m-2 text-xl md:mr-[580px]">{serie.description}</p>
+          <p className="m-2 text-xl md:mr-[280px] lg:mr-[580px]">{serie.description}</p>
 
-          <div className="flex flex-wrap gap-2">
+          <div className="flex flex-wrap gap-2 m-2">
             {serie.category.map((category, index) => (
               <div key={index} className="border py-1 px-4 rounded-lg">
                 <p className="text-white">{category.name}</p>
