@@ -1,0 +1,568 @@
+[{
+    "_id": "667de54aed7820934256a71d",
+    "name": "Hey Arnold!",
+    "description": "Arnold es un chico muy inteligente, con una extraña cabeza con forma de balón de fútbol americano, vive en una vecindad multiétnica (la estratégica posición de su vecindario le ofrece posibilidades infinitas de aventuras), es un soñador que le gusta el béisbol y vive con sus abuelos.",
+    "category": [
+      {
+        "name": "Comedia"
+      },
+      {
+        "name": "Aventura"
+      }
+    ],
+    "rating": "7.6",
+    "type": "serie",
+    "image": "https://pics.filmaffinity.com/aOye_Arnold_Serie_de_TV-451908137-large.jpg",
+    "background": "https://i.pinimg.com/originals/64/18/8f/64188faa180afde4d36e69cf5636d4e2.jpg",
+    "seasons": [
+      {
+        "season": "Temporada 1",
+        "links": [
+          {
+            "name": "01. Las frutas en el centro - La bicicleta de Eugene",
+            "link": "https://ok.ru/videoembed/7449294604818?autoplay=0&controls=1"
+          },
+          {
+            "name": "02. El pequeño libro rosa - visita al acuario",
+            "link": "https://ok.ru/videoembed/7449296308754?autoplay=0&controls=1"
+          },
+          {
+            "name": "03. La gorra de Arnold - El chico del pórtico",
+            "link": "https://ok.ru/videoembed/7449298078226?autoplay=0&controls=1"
+          },
+          {
+            "name": "04. La decisión de Helga - El viejo edificio",
+            "link": "https://ok.ru/videoembed/7533751962130?autoplay=0&controls=1"
+          },
+          {
+            "name": "05. Chicas de 6° grado - El béisbol",
+            "link": "https://ok.ru/videoembed/7533756746258?autoplay=0&controls=1"
+          },
+          {
+            "name": "06. ¡Qué calor! - Nieve",
+            "link": "https://ok.ru/videoembed/7533758843410?autoplay=0&controls=1"
+          },
+          {
+            "name": "07. Operación contra Ruth - El terreno baldío",
+            "link": "https://ok.ru/videoembed/7533764348434?autoplay=0&controls=1"
+          },
+          {
+            "name": "08. La lista - El tren fantasma",
+            "link": "https://ok.ru/videoembed/7533766117906?autoplay=0&controls=1"
+          },
+          {
+            "name": "09. Asaltado - Campamento",
+            "link": "https://ok.ru/videoembed/7533767232018?autoplay=0&controls=1"
+          },
+          {
+            "name": "10. Puerta 16 - Arnold Cupido",
+            "link": "https://ok.ru/videoembed/7533768673810?autoplay=0&controls=1"
+          }
+        ]
+      },
+      {
+        "season": "Temporada 2",
+        "links": [
+          {
+            "name": "19. Amigos de Medio Tiempo - el experimento de arnold",
+            "link": "https://ok.ru/videoembed/7533773457938?autoplay=0&controls=1"
+          },
+          {
+            "name": "20. La navidad de arnold",
+            "link": "https://ok.ru/videoembed/7533774572050?autoplay=0&controls=1"
+          },
+          {
+            "name": "21. El Novio de Helga - Amor De Estudiante",
+            "link": "https://ok.ru/videoembed/7524757998098?autoplay=0&controls=1"
+          },
+          {
+            "name": "22. El Monitor de Pasillos - El Bar Mitzvah de Harold",
+            "link": "https://ok.ru/videoembed/7536770812434?autoplay=0&controls=1"
+          },
+          {
+            "name": "23. El Entrenador Wittenberg - Jack Cuatro Ojos",
+            "link": "https://ok.ru/videoembed/7536771140114?autoplay=0&controls=1"
+          },
+          {
+            "name": "24. La Carrera de Botes - Huelga de Maestros",
+            "link": "https://ok.ru/videoembed/7536772057618?autoplay=0&controls=1"
+          },
+          {
+            "name": "25. El San Valentín de Arnold",
+            "link": "https://ok.ru/videoembed/7536772385298?autoplay=0&controls=1"
+          },
+          {
+            "name": "26. El experimento - Compañeros",
+            "link": "https://ok.ru/videoembed/7536772123154?autoplay=0&controls=1"
+          },
+          {
+            "name": "27. La Gran Noticia - El Gato de Harold",
+            "link": "https://ok.ru/videoembed/7536771926546?autoplay=0&controls=1"
+          },
+          {
+            "name": "28. Arnold Salva a Sid - Escapándose",
+            "link": "https://ok.ru/videoembed/7536771533330?autoplay=0&controls=1"
+          },
+          {
+            "name": "29. El Rescate - Señorita Perfecta",
+            "link": "https://ok.ru/videoembed/7536772188690?autoplay=0&controls=1"
+          },
+          {
+            "name": "30. Cosas de Monos - El Gran César",
+            "link": "https://ok.ru/videoembed/7536771729938?autoplay=0&controls=1"
+          },
+          {
+            "name": "31. La Gran Vida - Mejores Amigas",
+            "link": "https://ok.ru/videoembed/7536771598866?autoplay=0&controls=1"
+          },
+          {
+            "name": "32. El Lunes más Largo - La Mascota de Eugene",
+            "link": "https://ok.ru/videoembed/7536771402258?autoplay=0&controls=1"
+          },
+          {
+            "name": "33. El Juego de Fútbol - Gerald se muda",
+            "link": "https://ok.ru/videoembed/7536771664402?autoplay=0&controls=1"
+          },
+          {
+            "name": "34. Imagen Congelada - Phoebe hace Trampa",
+            "link": "https://ok.ru/videoembed/7536771992082?autoplay=0&controls=1"
+          },
+          {
+            "name": "35. La Pósima mágica - El gran Secreto",
+            "link": "https://ok.ru/videoembed/7536772254226?autoplay=0&controls=1"
+          },
+          {
+            "name": "36. Steely Phil - Tiempo de Cantidad",
+            "link": "https://ok.ru/videoembed/7536771467794?autoplay=0&controls=1"
+          },
+          {
+            "name": "37. Concurso de Comida - Los Anteojos de Rhonda",
+            "link": "https://ok.ru/videoembed/7536772319762?autoplay=0&controls=1"
+          },
+          {
+            "name": "38. Salven el Árbol - El Nuevo Maestro",
+            "link": "https://ok.ru/videoembed/7536771861010?autoplay=0&controls=1"
+          },
+          {
+            "name": "39. Eugene se Vuelve Malo - Una Noche en la Ópera",
+            "link": "https://ok.ru/videoembed/7536771795474?autoplay=0&controls=1"
+          },
+          {
+            "name": "40. La Noche de Brujas de Arnold",
+            "link": "https://ok.ru/videoembed/7536771271186?autoplay=0&controls=1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "668e9674df3e85c35ccb453c",
+    "name": "TMNT 2003",
+    "description": "Las Tortugas Ninja son cuatro héroes que protegen a todos del infame Clan Foot y otras fuerzas antinaturales.",
+    "image": "https://m.media-amazon.com/images/M/MV5BMzYyNDU3ZTctYTQwYi00NjVmLTgwN2QtYmFmMTY5MjI0NDdlXkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_FMjpg_UX1000_.jpg",
+    "category": [
+      {
+        "name": "Acción"
+      },
+      {
+        "name": "Aventura"
+      }
+    ],
+    "rating": "7.8",
+    "type": "serie",
+    "background": "https://wallpapers.com/images/hd/tmnt-1920-x-1080-wallpaper-bfheoo5r7l5m3qcs.jpg",
+    "seasons": [
+      {
+        "season": "Temporada 1",
+        "links": [
+          {
+            "name": "01. Las Cosas Cambian",
+            "link": "https://ok.ru/videoembed/7524750985746?autoplay=0&controls=1"
+          },
+          {
+            "name": "02. La Mejor Ratonera",
+            "link": "https://ok.ru/videoembed/7527909296658?autoplay=0&controls=1"
+          },
+          {
+            "name": "03. El Ataque de los Ratoneros",
+            "link": "https://ok.ru/videoembed/7527909755410?autoplay=0&controls=1"
+          },
+          {
+            "name": "04. Presentando a Casey Jones",
+            "link": "https://ok.ru/videoembed/7527910214162?autoplay=0&controls=1"
+          },
+          {
+            "name": "05. Nano",
+            "link": "https://ok.ru/videoembed/7527910410770?autoplay=0&controls=1"
+          },
+          {
+            "name": "06. Apagón a las Orillas de la Ciudad",
+            "link": "https://ok.ru/videoembed/7527911000594?autoplay=0&controls=1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "66901424cc7f2bde1dd2565c",
+    "name": "Samurai Jack",
+    "description": "Es la historia del pequeño heredero del emperador de Japón, que ve morir a su familia y a su pueblo a manos del malvado demonio Aku",
+    "category": [
+      {
+        "name": "Acción"
+      },
+      {
+        "name": "Aventura"
+      }
+    ],
+    "rating": "8.5",
+    "type": "serie",
+    "image": "https://pics.filmaffinity.com/samurai_jack_the_premiere_movie-766900773-large.jpg",
+    "background": "https://www.adultswim.com/misc/samurai-jack-backgrounds/media/SAMURAI_JACK_1920X1080_Skulls.png",
+    "seasons": [
+      {
+        "season": "Temporada 1",
+        "links": [
+          {
+            "name": "01. El comienzo",
+            "link": "https://vidhidepre.com/embed/xw41ragstxs3"
+          },
+          {
+            "name": "02. El samurai llamado Jack",
+            "link": "https://vidhidepre.com/embed/39ifx07h72ku"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "6693156d12be036eec602b25",
+    "name": "Fenomenoide",
+    "description": "Un superhéroe con mejora de fuerza y resistencia, velocidad extraordinaria y agilidad, pero que desafortunadamente es un maníaco que cuenta con habilidades de telequinesis, aunque sólo cuando esta muy enojado, además de transformarse en electricidad y cubrir grandes distancias en muy poco tiempo.",
+    "category": [
+      {
+        "name": "Acción"
+      },
+      {
+        "name": "Aventura"
+      },
+      {
+        "name": "Comedia"
+      }
+    ],
+    "rating": "7.5",
+    "type": "serie",
+    "image": "https://images.justwatch.com/poster/300678811/s718/fenomenoide.jpg",
+    "background": "https://i.pinimg.com/originals/fb/1a/97/fb1a97b949c12a30269f813ab996e2da.jpg",
+    "seasons": [
+      {
+        "season": "Temporada 1",
+        "links": [
+          {
+            "name": "01. El baile mortal - La mano",
+            "link": "https://ok.ru/videoembed/7533729810962?autoplay=0&controls=1"
+          },
+          {
+            "name": "02. El velador - Toby Danger en  La Mente",
+            "link": "https://ok.ru/videoembed/7533734201874?autoplay=0&controls=1"
+          },
+          {
+            "name": "03. Rescate cloacal - Cena con las leyendas",
+            "link": "https://ok.ru/videoembed/7533738068498?autoplay=0&controls=1"
+          },
+          {
+            "name": "04. Lo llaman Panzón - Diversión en el sol Francés con Fenomenoide",
+            "link": "https://ok.ru/videoembed/7533742459410?autoplay=0&controls=1"
+          },
+          {
+            "name": "05. Espuma el Fenoperro  Visita de oficina  Oda a Leonard Nimoy  Prueba del sistema de emergencia  Curso de noruego con Fenomenoide",
+            "link": "https://ok.ru/videoembed/7533746457106?autoplay=0&controls=1"
+          },
+          {
+            "name": "06. El chip parte 1",
+            "link": "https://ok.ru/videoembed/7536797551122?autoplay=0&controls=1"
+          },
+          {
+            "name": "07. El chip parte 2 - Fenomenoide hace historia",
+            "link": "https://ok.ru/videoembed/7536797747730?autoplay=0&controls=1"
+          },
+          {
+            "name": "08. Los corredores del infierno - La hora de la maldad",
+            "link": "https://ok.ru/videoembed/7536797878802?autoplay=0&controls=1"
+          },
+          {
+            "name": "09. Relax o visión - Super Gordo y Niño Manteca - El palacio del terror",
+            "link": "https://ok.ru/videoembed/7536798075410?autoplay=0&controls=1"
+          },
+          {
+            "name": "10. Con las manos arriba - La nube",
+            "link": "https://ok.ru/videoembed/7536797616658?autoplay=0&controls=1"
+          },
+          {
+            "name": "11. La próxima vez llame primero - Nerd destructor",
+            "link": "https://ok.ru/videoembed/7536798009874?autoplay=0&controls=1"
+          },
+          {
+            "name": "12. La casa de Fenomenoide - Cloacas ó muerte",
+            "link": "https://ok.ru/videoembed/7536797944338?autoplay=0&controls=1"
+          },
+          {
+            "name": "13. La ira de Gutiérrez",
+            "link": "https://ok.ru/videoembed/7536797682194?autoplay=0&controls=1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "669e9a14fae5d036753415dd",
+    "name": "Tom y Jerry",
+    "description": "Son un gato y un ratón su mayor enemigo que no pueden vivir el uno sin el otro, y de vez en cuando les une una curiosa amistad.",
+    "category": [
+      {
+        "name": "Comedia"
+      },
+      {
+        "name": "Aventura"
+      }
+    ],
+    "rating": "7.6",
+    "type": "serie",
+    "image": "https://pics.filmaffinity.com/tom_and_jerry_tom_jerry_tv_series-202407065-large.jpg",
+    "background": "https://wallpaper.dog/large/17273748.jpg",
+    "seasons": [
+      {
+        "season": "Temporada 1",
+        "links": [
+          {
+            "name": "Loco por Jerry",
+            "link": "https://ok.ru/videoembed/7560771275282?autoplay=0&controls=1"
+          },
+          {
+            "name": "Cine Tramposo",
+            "link": "https://ok.ru/videoembed/7560771209746?autoplay=0&controls=1"
+          },
+          {
+            "name": "Amenaza en miniatura",
+            "link": "https://ok.ru/videoembed/7560771144210?autoplay=0&controls=1"
+          },
+          {
+            "name": "El ratón invisible",
+            "link": "https://ok.ru/videoembed/7560771078674?autoplay=0&controls=1"
+          },
+          {
+            "name": "Jerry El ratón difícil de encoger",
+            "link": "https://ok.ru/videoembed/7560771013138?autoplay=0&controls=1"
+          },
+          {
+            "name": "Persecución a control remoto",
+            "link": "https://ok.ru/videoembed/7560770947602?autoplay=0&controls=1"
+          },
+          {
+            "name": "Hawái mil problemas",
+            "link": "https://ok.ru/videoembed/7560770882066?autoplay=0&controls=1"
+          },
+          {
+            "name": "Comida para tiburones",
+            "link": "https://ok.ru/videoembed/7560770816530?autoplay=0&controls=1"
+          },
+          {
+            "name": "Problema mecánico",
+            "link": "https://ok.ru/videoembed/7560770750994?autoplay=0&controls=1"
+          },
+          {
+            "name": "Gato marinero",
+            "link": "https://ok.ru/videoembed/7560770685458?autoplay=0&controls=1"
+          },
+          {
+            "name": "Guerra ultra moderna",
+            "link": "https://ok.ru/videoembed/7560770619922?autoplay=0&controls=1"
+          },
+          {
+            "name": "Vaya noche",
+            "link": "https://ok.ru/videoembed/7560770554386?autoplay=0&controls=1"
+          },
+          {
+            "name": "Agente roedor",
+            "link": "https://ok.ru/videoembed/7560770488850?autoplay=0&controls=1"
+          },
+          {
+            "name": "Gatos en conflicto",
+            "link": "https://ok.ru/videoembed/7560770423314?autoplay=0&controls=1"
+          },
+          {
+            "name": "Ratón de laboratorio",
+            "link": "https://ok.ru/videoembed/7560770357778?autoplay=0&controls=1"
+          },
+          {
+            "name": "Amo mi gato",
+            "link": "https://ok.ru/videoembed/7560770226706?autoplay=0&controls=1"
+          },
+          {
+            "name": "Dulces ratones",
+            "link": "https://ok.ru/videoembed/7560770161170?autoplay=0&controls=1"
+          },
+          {
+            "name": "Gato y dupli-gato",
+            "link": "https://ok.ru/videoembed/7560770095634?autoplay=0&controls=1"
+          },
+          {
+            "name": "Mal día en el Cat Rock",
+            "link": "https://ok.ru/videoembed/7560770030098?autoplay=0&controls=1"
+          },
+          {
+            "name": "Energía Tómica",
+            "link": "https://ok.ru/videoembed/7560769964562?autoplay=0&controls=1"
+          },
+          {
+            "name": "El adominable gato de las nieves",
+            "link": "https://ok.ru/videoembed/7560769899026?autoplay=0&controls=1"
+          },
+          {
+            "name": "Hermanos, atrapemos al ratón",
+            "link": "https://ok.ru/videoembed/7560769833490?autoplay=0&controls=1"
+          },
+          {
+            "name": "El duelo",
+            "link": "https://ok.ru/videoembed/7560769767954?autoplay=0&controls=1"
+          },
+          {
+            "name": "Sólo en la nieve",
+            "link": "https://ok.ru/videoembed/7560769702418?autoplay=0&controls=1"
+          },
+          {
+            "name": "Gato embrujado",
+            "link": "https://ok.ru/videoembed/7560769636882?autoplay=0&controls=1"
+          },
+          {
+            "name": "El misterio de Tom",
+            "link": "https://ok.ru/videoembed/7560769505810?autoplay=0&controls=1"
+          },
+          {
+            "name": "Vamos al cine",
+            "link": "https://ok.ru/videoembed/7560769243666?autoplay=0&controls=1"
+          },
+          {
+            "name": "No es el perro como lo pintan",
+            "link": "https://ok.ru/videoembed/7560769047058?autoplay=0&controls=1"
+          },
+          {
+            "name": "Un ratón de altura",
+            "link": "https://ok.ru/videoembed/7560768981522?autoplay=0&controls=1"
+          },
+          {
+            "name": "El sonámbulo",
+            "link": "https://ok.ru/videoembed/7560768915986?autoplay=0&controls=1"
+          },
+          {
+            "name": "Es peligroso cazar un ratón",
+            "link": "https://ok.ru/videoembed/7560768850450?autoplay=0&controls=1"
+          },
+          {
+            "name": "Aventura en el circo",
+            "link": "https://ok.ru/videoembed/7560768784914?autoplay=0&controls=1"
+          },
+          {
+            "name": "Filete Miau",
+            "link": "https://ok.ru/videoembed/7560768653842?autoplay=0&controls=1"
+          },
+          {
+            "name": "El gato arriba y el ratón abajo",
+            "link": "https://ok.ru/videoembed/7560768588306?autoplay=0&controls=1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "66a031bca6083f820cfa8014",
+    "name": "Star Wars Clone Wars (2003)",
+    "description": "Esta ficción es la versión animada de la saga cinéfila. Se ambienta durante las Guerras Clon, el periodo de tiempo que enfrenta a la República galáctica, con el Canciller Palpatine como líder, y la Confederación de Sistemas Independientes que está encabezada por el Conde Dooku",
+    "category": [
+      {
+        "name": "Acción"
+      },
+      {
+        "name": "Aventura"
+      }
+    ],
+    "rating": "7.8",
+    "type": "serie",
+    "image": "https://www.lavanguardia.com/peliculas-series/images/serie/poster/2003/11/w1280/2lsuke69bRdyB1sxtKmavtwkc35.jpg",
+    "background": "https://image.tmdb.org/t/p/original/pxkeqSHfTkefKz0y5naAX1u9cDw.jpg",
+    "seasons": [
+      {
+        "season": "Serie Completa",
+        "links": [
+          {
+            "name": "Clone Wars",
+            "link": "https://vidhidepre.com/embed/itlul0nrtc45"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "66a12be571135beadb033688",
+    "name": "Primal",
+    "description": "Primal sigue a un hombre de las cavernas llamado Spear, un cazador formidable en los albores de la evolución, y una tiranosaurio llamada Fang al borde de la extinción, reunidos por la tragedia en una asociación poco probable mientras luchan por sobrevivir a las criaturas violentas que también viven en el mundo prehistórico",
+    "category": [
+      {
+        "name": "Acción"
+      },
+      {
+        "name": "Aventura"
+      }
+    ],
+    "rating": "8.7",
+    "type": "serie",
+    "image": "https://tv-fanatic-res.cloudinary.com/iu/s--Mo-k33Qe--/t_full/cs_srgb,f_auto,fl_strip_profile.lossy,q_auto:420/v1672282843/primal-key-art.jpg",
+    "background": "https://images6.alphacoders.com/132/1324057.jpeg",
+    "seasons": [
+      {
+        "season": "Temporada 1",
+        "links": [
+          {
+            "name": "1x01. Spear y Fang",
+            "link": "https://vidhidepre.com/embed/cphcs4f80as6"
+          },
+          {
+            "name": "1x02. Río de Serpientes",
+            "link": "https://vidhidepre.com/embed/us3rj1fpgomx"
+          },
+          {
+            "name": "1x03. Una Muerte Fría",
+            "link": "https://vidhidepre.com/embed/fmmv8v7xz6vu"
+          },
+          {
+            "name": "1x04. Terror bajo la Luna de Sangre",
+            "link": "https://vidhidepre.com/embed/8w7kes55f1da"
+          },
+          {
+            "name": "1x05. Furia de los Hombres Simio",
+            "link": "https://vidhidepre.com/embed/nm3xf76ysuyv"
+          },
+          {
+            "name": "1x06. Rastro de Presa",
+            "link": "https://vidhidepre.com/embed/j71q8nmlo2c6"
+          },
+          {
+            "name": "1x07. Plaga de la Locura",
+            "link": "https://vidhidepre.com/embed/k0sc757p6hu5"
+          },
+          {
+            "name": "1x08. Aquelarre de los Malditos",
+            "link": "https://vidhidepre.com/embed/swlv4xnabp1i"
+          },
+          {
+            "name": "1x09. El Devorador Nocturno",
+            "link": "https://vidhidepre.com/embed/5nvoupy0uwuo"
+          },
+          {
+            "name": "1x10. Esclavo del Escorpión",
+            "link": "https://vidhidepre.com/embed/kd25pmvxfhn0"
+          }
+        ]
+      }
+    ]
+  }]

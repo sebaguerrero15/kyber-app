@@ -187,33 +187,44 @@ const nextConfig = {
         hostname: 'cdnebasnet.com',
         port: '',
         pathname: '/data/cache/opt_png/eshop/funnatic/images/posts/524-1675765865-1400x1400.png',
+      },
+      {
+        protocol: 'https',
+        hostname: 'es.web.img2.acsta.net',
+        port: '',
+        pathname: '/pictures/23/01/27/22/36/5530935.jpg',
+      },
+      {
+        protocol: 'https',
+        hostname: 'wallpapers.com',
+        port: '',
+        pathname: '/images/hd/hey-arnold-jungle-friends-9z3urkjehoe4h0av.jpg',
+      },
+      {
+        protocol: 'https',
+        hostname: 'es.web.img2.acsta.net',
+        port: '',
+        pathname: '/pictures/19/10/07/15/40/0787494.jpg',
+      },
+      {
+        protocol: 'https',
+        hostname: 'https://wallpapercave.com',
+        port: '',
+        pathname: '/wp/wp5505806.jpg',
+      },
+      {
+        protocol: 'https',
+        hostname: 'wallpaper.forfun.com',
+        port: '',
+        pathname: '/fetch/77/77298a3c67c7a741678d3b3b8e71fa27.jpeg',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.insomniacine.cl',
+        port: '',
+        pathname: '/wp-content/uploads/2023/01/elreyleon.jpeg',
       }
     ],
-  },
-  async headers() {
-    return [
-      {
-        source: '/(.*)', // Aplica CORS a todas las rutas
-        headers: [
-          {
-            key: 'Access-Control-Allow-Credentials',
-            value: 'true',
-          },
-          {
-            key: 'Access-Control-Allow-Origin',
-            value: 'https://kyber-swart.vercel.app/', //
-          },
-          {
-            key: 'Access-Control-Allow-Methods',
-            value: 'GET,OPTIONS,PATCH,DELETE,POST,PUT',
-          },
-          {
-            key: 'Access-Control-Allow-Headers',
-            value: 'X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version',
-          }
-        ],
-      },
-    ];
   },
 };
 

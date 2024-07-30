@@ -1,6 +1,8 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
-import axios from 'axios';
+import peliculas from "../peliculas.json"
+import series from "../series.json"
+
 
 const useSeriesStore = create(persist(
   (set, get) => ({
@@ -12,18 +14,16 @@ const useSeriesStore = create(persist(
     selectedBusqueda: {}, 
     fetchSeries: async () => {
       try {
-        const res = await axios.get('https://kyber-swart.vercel.app/api/series');
-        const data = res.data;
-        set({ series: data });
+      
+        set({ series: series });
       } catch (error) {
         console.error("Error fetching series:", error);
       }
     },
     fetchPeliculas: async () => {
       try {
-        const res = await axios.get('https://kyber-swart.vercel.app/api/peliculas');
-        const data = res.data;
-        set({ peliculas: data });
+     
+        set({ peliculas: peliculas });
       } catch (error) {
         console.error("Error fetching peliculas:", error);
       }

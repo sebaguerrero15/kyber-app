@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 const DestacadosPelis = () => {
   const peliculas = useSeriesStore((state) => state.peliculas);
 
-  // Asegúrate de que `peliculas` esté definido y tenga una estructura esperada.
+  
   const sortedPeliculas = peliculas && peliculas.length > 0 ? peliculas.sort((a, b) => b.rating - a.rating).slice(0, 5) : [];
 
   return (

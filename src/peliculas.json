@@ -1,0 +1,236 @@
+ [
+    {
+    "_id": "1001",
+    "name": "El Grinch",
+    "description": "El Grinch es un ser malhumorado y quejumbroso que quiere arruinarles la Navidad a sus alegres vecinos de Villa Quién",
+    "category": [
+      {
+        "name": "Navidad"
+      },
+      {
+        "name": "Aventura"
+      }
+    ],
+    "rating": "6.5",
+    "type": "pelicula",
+    "image": "https://www.lavanguardia.com/peliculas-series/images/movie/poster/2018/11/w1280/eCHNCoat9L0Q3p4XjBQqV2Zn7Ux.jpg",
+    "background": "https://images-2.rakuten.tv/storage/snapshot/shot/c2c97ef2-3ad7-452f-a572-9ab682d27e37.jpeg",
+    "link": "https://ok.ru/videoembed/7539690965522",
+    "trailer": "N2lzGmhf0yY"
+  },
+  {
+    "_id": "1002",
+    "name": "El viaje de Chihiro",
+    "description": "Chihiro es una niña de diez años que viaja en coche con sus padres. Después de atravesar un túnel, llegan a un mundo fantástico, en el que no hay lugar para los seres humanos, sólo para los dioses de primera y segunda clase. Ese reino estará governado por una bruja que convierte en animales a quienes la desobedecen",
+    "category": [
+      {
+        "name": "Anime"
+      },
+      {
+        "name": "Aventura"
+      }
+    ],
+    "rating": "8.6",
+    "type": "pelicula",
+    "image": "https://es.web.img2.acsta.net/pictures/21/05/11/13/47/5979708.jpg",
+    "background": "https://livewallp.com/wp-content/uploads/2021/08/Ghibli-Spirited-Away-No-Face-Chihiro.jpg",
+    "link": "https://ok.ru/videoembed/7555583904274",
+    "trailer": "0Fobamq5NdM"
+  },
+  {
+    "_id": "1003",
+    "name": "TMNT Caos Mutante (2023)",
+    "description": "Tras pasar años ocultándose, las tortugas quieren ganarse el corazón de los neoyorquinos con la ayuda de su nueva amiga, April, quien colabora con ellos en la lucha contra unos criminales. Sin embargo, terminan enfrentándose a mutantes.",
+    "category": [
+      {
+        "name": "Acción"
+      },
+      {
+        "name": "Aventura"
+      }
+    ],
+    "rating": "7.2",
+    "type": "pelicula",
+    "image": "https://pics.filmaffinity.com/Ninja_Turtles_Caos_mutante-886922545-large.jpg",
+    "background": "https://i.blogs.es/26e56d/slack-imgs/1366_2000.jpeg",
+    "link": "https://ok.ru/videoembed/7555845917202",
+    "trailer": "KBzgApgJhBg"
+  },
+  {
+    "_id": "1004",
+    "name": "Up",
+    "description": "Carl Fredricksen es un viudo vendedor de globos de 78 años que, finalmente, consigue llevar a cabo el sueño de su vida: enganchar miles de globos a su casa y salir volando rumbo a América del Sur. Sin embargo, ya estando en el aire y sin posibilidad de retornar Carl descubre que viaja acompañado de un 'boy scout' de 8 años como polizón.",
+    "category": [
+      {
+        "name": "Comedia"
+      },
+      {
+        "name": "Aventura"
+      }
+    ],
+    "rating": "8.3",
+    "type": "pelicula",
+    "image": "https://cdnx.jumpseller.com/peliculas-de-papel/image/25152883/up_movie.jpg",
+    "background": "https://wallpapercave.com/wp/Ou1L18s.jpg",
+    "link": "https://vidhidepre.com/embed/52n37rpclxpf",
+    "trailer": "qoZo9MiICo0"
+  },
+  {
+    "_id": "1005",
+    "name": "La familia Mitchell vs. Las Máquinas",
+    "description": "El viaje por carretera de la familia Mitchell, que va a acompañar a uno de sus hijos a su primer día de universidad, se ve interrumpido por una insurrección tecnológica que amenaza a la humanidad.",
+    "category": [
+      {
+        "name": "Acción"
+      },
+      {
+        "name": "Aventura"
+      },
+      {
+        "name": "Comedia"
+      }
+    ],
+    "rating": "7.6",
+    "type": "pelicula",
+    "image": "https://m.media-amazon.com/images/S/pv-target-images/97b33f74bb58ecdc877111b9cad972f91ed8802b9a9a199ab638e9a0923a0f4a.jpg",
+    "background": "https://image.tmdb.org/t/p/original/6ydGnzbo8s4yRNqQWPAvVSiNU8N.jpg",
+    "link": "https://ok.ru/videoembed/7565374523922",
+    "trailer": "cMLcCLglGoQ"
+  },
+  {
+    "_id": "1006",
+    "name": "Spirit",
+    "description": "La película narra las aventuras de un Potro salvaje en su viaje a través de la indómita frontera Norteamericana. Cuando consigue al hombre por primera vez, su resistencia se ve disminuida, a la vez que desarrolla una notable amistad con un joven y bravo indio Lakota.",
+    "category": [
+      {
+        "name": "Aventura"
+      },
+      {
+        "name": "Drama"
+      },
+      {
+        "name": "Familiar"
+      }
+    ],
+    "rating": "7.2",
+    "type": "pelicula",
+    "image": "https://image.tmdb.org/t/p/original/4EaTwlQf7IpbKXn8EHjgPUbuAmq.jpg",
+    "background": "https://i.pinimg.com/originals/1a/2f/31/1a2f31ad1218d29a7bd834c908516ebc.jpg",
+    "link": "https://vidhidepre.com/embed/ajkvxwu255dk",
+    "trailer": "-9UZh5kaIUM"
+  },
+  {
+    "_id": "1007",
+    "name": "Walle",
+    "description": "Tras cientos de años haciendo aquello para lo que fue construido: limpiar el planeta de basura, el pequeño robot Wall-e tiene una nueva misión cuando conoce a Eva.",
+    "category": [
+      {
+        "name": "Familiar"
+      },
+      {
+        "name": "Aventura"
+      }
+    ],
+    "rating": "8.4",
+    "type": "pelicula",
+    "image": "https://es.web.img2.acsta.net/pictures/14/04/30/10/41/026995.jpg",
+    "background": "https://fondosmil.co/fondo/11690.jpg",
+    "link": "https://vidhidepre.com/embed/52n37rpclxpf",
+    "trailer": "IYPe2oWBV_w"
+  },
+  {
+    "_id": "1008",
+    "name": "Balto",
+    "description": "Mitad perro esquimal, mitad lobo, Balto se siente fuera de lugar en Alaska, excepto cuando está junto a sus amigos, un ganso, dos cachorros de oso polar y una perra esquimal. Cuando una grave epidemia de difteria se extiende entre los niños del pueblo y todos los caminos están cortados, Balto se interna en el hielo con un trineo para regresar con medicamentos.",
+    "category": [
+      {
+        "name": "Drama"
+      },
+      {
+        "name": "Aventura"
+      },
+      {
+        "name": "Familiar"
+      }
+    ],
+    "rating": "7.1",
+    "type": "pelicula",
+    "image": "https://m.media-amazon.com/images/S/pv-target-images/5bd99ab84b33fe301e320d86f72f3c41d6cbb3b3c652b34babcd87dc13c34b14.jpg",
+    "background": "https://image.tmdb.org/t/p/original/hljMglukfpnfaNmUgMuORmL4OVW.jpg",
+    "link": "https://ok.ru/videoembed/7567067056658",
+    "trailer": "Qrk3sqy1wjo"
+  },
+  {
+    "_id": "1009",
+    "name": "Hey Arnold The Jungle Movie",
+    "description": "Arnold y toda su clase ganan un viaje de voluntariado a San Lorenzo, en Argentina. Esta va a ser la oportunidad perfecta para que Arnold encuentre a sus padres, que desaparecieron allí hace mucho tiempo.",
+    "category": [
+      {
+        "name": "Comedia"
+      },
+      {
+        "name": "Aventura"
+      },
+      {
+        "name": "Familiar"
+      }
+    ],
+    "rating": "7.4",
+    "type": "pelicula",
+    "image": "https://es.web.img2.acsta.net/pictures/23/01/27/22/36/5530935.jpg",
+    "background": "https://wallpapers.com/images/hd/hey-arnold-jungle-friends-9z3urkjehoe4h0av.jpg",
+    "link": "https://vidhidepre.com/embed/sxutk4t1k2mu",
+    "trailer": "dpJfikwbfog"
+  },
+  {
+    "_id": "1010",
+    "name": "Klauss",
+    "description": "Jesper es cartero. Como era el peor estudiante de la academia postal, le destinan a un gélido lugar más allá del Círculo Polar Ártico. Sus habitantes nunca envían cartas, de modo que Jesper está a punto de rendirse, hasta que encuentra a Klaus. Un fabricante de juguetes que vive aislado en una cabaña repleta de juguetes hechos a mano. Ambos se harán amigos mientras deciden traer de vuelta la alegría al lugar, porque un verdadero acto de generosidad siempre genera otro.",
+    "category": [
+      {
+        "name": "Comedia"
+      },
+      {
+        "name": "Aventura"
+      },
+      {
+        "name": "Familiar"
+      },
+      {
+        "name": "Navidad"
+      }
+    ],
+    "rating": "8.2",
+    "type": "pelicula",
+    "image": "https://es.web.img2.acsta.net/pictures/19/10/07/15/40/0787494.jpg",
+    "background": "https://wallpapercave.com/wp/wp5505806.jpg",
+    "link": "https://ok.ru/videoembed/7581509421586",
+    "trailer": "emYgXGRE4-Y"
+  },
+  {
+    "_id": "1011",
+    "name": "El Rey León",
+    "description": "Tras la muerte de su padre, Simba deberá enfrentarse a su tío para recuperar el trono de Rey de la Selva. Timón y Pumba le acompañarán en su misión.",
+    "category": [
+      {
+        "name": "Drama"
+      },
+      {
+        "name": "Aventura"
+      },
+      {
+        "name": "Familiar"
+      }
+    ],
+    "rating": "8.5",
+    "type": "pelicula",
+    "image": "https://www.insomniacine.cl/wp-content/uploads/2023/01/elreyleon.jpeg",
+    "background": "https://wallpaper.forfun.com/fetch/77/77298a3c67c7a741678d3b3b8e71fa27.jpeg",
+    "link": "https://vidhidepre.com/embed/taarsis9xtb8",
+    "trailer": "bjJvvrKl83M"
+  }
+]
+
+
+
+

@@ -47,7 +47,7 @@ const SerieDetails = ({ params }) => {
   if (!serie.category) {
     return (
       <div className="flex justify-center items-center min-h-screen text-white">
-        <p>Error: Categorías no disponibles</p>
+         <MoonLoader color="#03d4ff" size={50} />
       </div>
     );
   }
